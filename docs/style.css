@@ -51,11 +51,14 @@
 }
 
 .contentspage {
+    box-sizing: border-box;
     background-color: #ffffff;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
+    border: 20px solid #ffffff;
+    border-radius: 20px;
 }
 
 .home {
