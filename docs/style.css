@@ -59,6 +59,7 @@
     width: 100%;
     border: 20px solid #ffffff;
     border-radius: 20px;
+    font-size: 1vw;
 }
 
 .home {
@@ -69,12 +70,12 @@
     display: none;
 }
 
-/* #page_mission {
-    height: 10000px;
+#membersimg {
+    position: relative;
+    width: 50%;
 }
 
-#page_members {
-    background-color: #00ffff;
+/* #page_mission {
     height: 10000px;
 }
 
