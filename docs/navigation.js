@@ -1,3 +1,5 @@
+// In charge of the top bar navigation buttons, and also loading each page
+
 const missionPage = document.getElementById("page_mission");
 const membersPage = document.getElementById("page_members");
 const homePage = document.getElementById("page_home");
