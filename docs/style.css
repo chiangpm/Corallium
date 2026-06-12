@@ -1,5 +1,6 @@
 :root {
-    background-color: #b0c0e8;
+    color-scheme: light dark;
+    background-color: light-dark(#b0c0e8, #505050);
 }
 
 #topbar {
@@ -8,7 +9,7 @@
     height: min(10vh, 8.333vw);
     top: 0;
     left: 0;
-    background-color: #8ba6e3;
+    background-color: light-dark(#8ba6e3, #404040);
 }
 
 #topbar_frame {
@@ -21,13 +22,39 @@
     font-size: min(8vh, 6.667vw);
 }
 
+/* #topbar_frame_right {
+    position: absolute;
+    height: min(10vh, 8.333vw);
+    top: 0%;
+    right: 0%;
+    aspect-ratio: 1;
+    background-color: #00ff00;
+    background-image: url(coralliumLogo.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: min(8vh, 6.667vw);
+} */
+
+/* #lightmodebutton {
+    position: relative;
+    text-align: center;
+    height: 70%;
+    width: 70%;
+    top: 15%;
+    left: 15%;
+    background-color: light-dark(#ffffff, #303030);
+    font-size: min(4vh, 3.333vw);
+} */
+
 .navButton {
     position: relative;
     text-align: center;
     vertical-align: middle;
     height: 60%;
     aspect-ratio: 2.5;
-    background-color: #ffffff;
+    background-color: light-dark(#ffffff, #303030);
     font-size: min(2vh, 1.667vw);
 }
 
@@ -65,13 +92,13 @@
 
 .contentspage {
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: light-dark(#ffffff, #303030);
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    border: 20px solid #ffffff;
-    border-radius: 20px;
+    border: 20px solid light-dark(#ffffff, #303030);
+    border-radius: 10px;
 }
 
 .home {
