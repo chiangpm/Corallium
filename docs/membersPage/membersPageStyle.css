@@ -6,3 +6,23 @@
     position: relative;
     width: 100%;
 }
+
+#departments_frame {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;/* light-dark(#cee8fb, #505050); */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.departmentmemberslist {
+    position: relative;
+    vertical-align: middle;
+    width: 240px;
+    height: 360px;
+    margin: 10px;
+    background-color: light-dark(#cee8fb, #606060);
+}

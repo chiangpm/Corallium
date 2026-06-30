@@ -84,21 +84,21 @@
 #contents_frame {
     position: absolute;
     /* background-color: transparent; */
-    top: 15vh;
-    left: 5vw;
-    width: 90vw;
+    top: min(10vh, 8.333vw); /*15vh*/
+    left: 0vw;
+    width: 100vw;
     /* height: 10000px; */
 }
 
 .contentspage {
     box-sizing: border-box;
-    background-color: light-dark(#ffffff, #303030);
+    background-color: transparent; /* light-dark(#ffffff, #303030); */
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    border: 20px solid light-dark(#ffffff, #303030);
-    border-radius: 10px;
+    /* border: 20px solid transparent; light-dark(#ffffff, #303030); */
+    /* border-radius: 10px; */
 }
 
 .home {
