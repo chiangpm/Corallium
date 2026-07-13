@@ -1,6 +1,6 @@
 :root {
     color-scheme: light dark;
-    background-color: light-dark(#b0c0e8, #505050);
+    background-color: light-dark(#b0c0e8, #202020);
 }
 
 #topbar {
@@ -9,7 +9,7 @@
     height: min(10vh, 8.333vw);
     top: 0;
     left: 0;
-    background-color: light-dark(#8ba6e3, #404040);
+    background-color: light-dark(#8ba6e3, #303030);
 }
 
 #topbar_frame {
@@ -54,7 +54,7 @@
     vertical-align: middle;
     height: 60%;
     aspect-ratio: 2.5;
-    background-color: light-dark(#ffffff, #303030);
+    background-color: light-dark(#ffffff, #505050);
     font-size: min(2vh, 1.667vw);
 }
 
@@ -83,7 +83,7 @@
 
 #contents_frame {
     position: absolute;
-    /* background-color: transparent; */
+    /* background-color: #ff00ff; */
     top: min(10vh, 8.333vw); /*15vh*/
     left: 0vw;
     width: 100vw;
