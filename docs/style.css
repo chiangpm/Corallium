@@ -4,7 +4,8 @@
 }
 
 #topbar {
-    position: absolute;
+    z-index: 1;
+    position: fixed;
     width: 100vw;
     height: min(10vh, 8.333vw);
     top: 0;
@@ -22,31 +23,30 @@
     font-size: min(8vh, 6.667vw);
 }
 
-/* #topbar_frame_right {
-    position: absolute;
+#topbar_frame_right {
+    z-index: 2;
+    position: fixed;
     height: min(10vh, 8.333vw);
     top: 0%;
     right: 0%;
     aspect-ratio: 1;
-    background-color: #00ff00;
-    background-image: url(coralliumLogo.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-color: #00ff00; */
     text-align: center;
     font-size: min(8vh, 6.667vw);
-} */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* #lightmodebutton {
+#config_lang {
     position: relative;
+    padding: 0;
     text-align: center;
     height: 70%;
     width: 70%;
-    top: 15%;
-    left: 15%;
     background-color: light-dark(#ffffff, #303030);
-    font-size: min(4vh, 3.333vw);
-} */
+    font-size: min(3vh, 2.5vw);
+}
 
 .navButton {
     position: relative;

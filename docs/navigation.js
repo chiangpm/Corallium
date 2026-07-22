@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
         let htmlContent = "";
         for (let departmentID = 0; departmentID < membersData.length; departmentID++) {
             htmlContent += "<div class=\"departmentmemberslist\">";
-            htmlContent += "<h2>" + String(membersData[departmentID].departmentName) + "</h2>";
+            // htmlContent += "<h2 id=\"" + membersData[departmentID].id + "\">" + String(membersData[departmentID].departmentName) + "</h2>";
+            htmlContent += "<h2 id=\"" + membersData[departmentID].id + "\"></h2>";
             for (let memberID = 0; memberID < (membersData[departmentID].departmentMembers).length; memberID++) {
                 htmlContent += "<p>" + String(membersData[departmentID].departmentMembers[memberID]) + "</p>";
             }
@@ -65,27 +66,3 @@ const navclick_news = function() {
     recruitmentPage.style.display = "none";
     newsPage.style.display = "block";
 }
-
-// let isLightMode = true;
-// function lightmodetoggle() {
-//     let currentTheme = document.documentElement.getAttribute('data-theme');
-  
-//     // If no manual theme is set yet, infer it from system preference
-//     if (!currentTheme) {
-//         currentTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-//     }
-    
-//     // Calculate and force the next theme state
-//     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
-//     document.documentElement.setAttribute('data-theme', newTheme);
-//     localStorage.setItem('theme', newTheme);
-
-
-//     isLightMode = ! isLightMode;
-//     if (isLightMode) {
-//         lightmodeButton.innerText = "☼";
-//     } else {
-//         lightmodeButton.innerText = "☽";
-//     }
-// }

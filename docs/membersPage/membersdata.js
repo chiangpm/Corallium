@@ -1,6 +1,7 @@
 const membersData = [
     {
-        departmentName: "Tank Maintenance Department",
+        id: "members_dep1",
+        // departmentName: "Tank Maintenance Department",
         departmentMembers: [
             "CHUI Wo Ronald",
             "LI Shing Hing Cathy",
@@ -10,7 +11,8 @@ const membersData = [
         ],
     },
     {
-        departmentName: "Public Relations Department",
+        id: "members_dep2",
+        // departmentName: "Public Relations Department",
         departmentMembers: [
             "CHAK Tin Long Louis",
             "HUI Yik Ling Simona",
@@ -21,7 +23,8 @@ const membersData = [
         ],
     },
     {
-        departmentName: "Accounting and Finance Department",
+        id: "members_dep3",
+        // departmentName: "Accounting and Finance Department",
         departmentMembers: [
             "Accounting and Finance Team",
             "FONG Wai Yan Jade",
@@ -30,7 +33,8 @@ const membersData = [
         ]
     },
     {
-        departmentName: "Art and Design Department",
+        id: "members_dep4",
+        // departmentName: "Art and Design Department",
         departmentMembers: [
             "NGO Chin Wun Eunice",
             "CHAN Nok Yee Agnes",
@@ -41,7 +45,8 @@ const membersData = [
         ]
     },
     {
-        departmentName: "Web Development Department",
+        id: "members_dep5",
+        // departmentName: "Web Development Department",
         departmentMembers: [
             "DENG Weilin William",
             "OUYANG Yuesheng Kevin"

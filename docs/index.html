@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <head>
+<meta charset="UTF-8">
 <meta name="color-scheme" content="light dark">
 <link href="style.css" rel="stylesheet">
 <link href="membersPage/membersPageStyle.css" rel="stylesheet">
@@ -16,9 +17,9 @@
         <button id="nav_recruitment" class="navButton" onclick="navclick_recruitment()">Join us!</button>
         <button id="nav_news" class="navButton" onclick="navclick_news()">News</button>
     </div>
-    <!-- <div id="topbar_frame_right">
-        <button id="lightmodebutton" onclick="lightmodetoggle()">☼</button>
-    </div> -->
+    <div id="topbar_frame_right">
+        <button id="config_lang" onclick="configclick_lang()">EN</button>
+    </div>
 </div>
 
 <div id="contents_frame">
@@ -31,24 +32,24 @@
         <div id="home_mainContentBackgroundFrame">
             <div id="home_mainContent1" class="home_contentSection">
                 <img id="home_mainContent1Image" src="placeholdercontent/imgportrait.jpg">
-                <h1>What is our goal?</h1>
-                <p class="home_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
-                <p class="home_text">Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย</p>
+                <h1 id="home_mainContent1Heading">What is our goal?</h1>
+                <p class="home_text" id="home_mainContent1Text1"></p>
+                <p class="home_text" id="home_mainContent1Text2"></p>
             </div>
             <div id="home_mainContent2" class="home_contentSection">
                 <div id="home_mainContent2ImagesFrame">
                     <img id="home_mainContent2TopImage" src="placeholdercontent/imglandscape.jpg">
                     <img id="home_mainContent2BottomImage" src="placeholdercontent/imglandscape.jpg">
                 </div>
-                <h1>What do we do?</h1>
-                <p class="home_text">Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.</p>
-                <p class="home_text">Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ:</p>
+                <h1 id="home_mainContent2Heading">What do we do?</h1>
+                <p class="home_text" id="home_mainContent2Text1"></p>
+                <p class="home_text" id="home_mainContent2Text2"></p>
             </div>
             <div id="home_mainContent3" class="home_contentSection">
                 <img id="home_mainContent3Image" src="placeholdercontent/imglandscape.jpg">
                 <div id="home_mainContent3TextFrame">
-                    <p class="home_mainContent3Text home_text">Lorem Ipsum，也称乱数假文或者哑元文本，是印刷及排版领域所常用的虚拟文字。由于曾经一台匿名的打印机刻意打乱了一盒印刷字体从而造出一本字体样品书，Lorem Ipsum从西元15世纪起就被作为此领域的标准文本使用。它不仅延续了五个世纪，还通过了电子排版的挑战，其雏形却依然保存至今。在1960年代，”Leatraset”公司发布了印刷着Lorem Ipsum段落的纸张，从而广泛普及了它的使用。最近，计算机桌面出版软件”Aldus PageMaker”也通过同样的方式使Lorem Ipsum落入大众的视野。</p>
-                    <p class="home_mainContent3Text home_text">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 nhờ việc bán những bản giấy Letraset in những đoạn Lorem Ipsum, và gần đây hơn, được sử dụng trong các ứng dụng dàn trang, như Aldus PageMaker.</p>
+                    <p class="home_mainContent3Text home_text" id="home_mainContent3Text1"></p>
+                    <p class="home_mainContent3Text home_text" id="home_mainContent3Text2"></p>
                 </div>
             </div>
         </div>
@@ -60,27 +61,25 @@
     </div>
     <div id="page_members" class="contentspage nothome">
         <img id="membersimg" src="membersPage/leadership team.jpg" alt="Corallium leadership team members">
-        <p style="font-size: larger;">Corallium Leadership Team</p>
-
-        <hr>
+        <p style="font-size: larger; margin-bottom: 20px;" id="members_photoSubheading">Corallium Leadership Team</p>
         <div style="font-size: large;">
-            <h1>Leader</h1>
+            <h1 id="members_lead1">Leader</h1>
             <p>LING Kai Chun Kaden</p>
-            <h2>Secretary</h2>
+            <h2 id="members_lead2">Secretary</h2>
             <p>REN Wei Bo Kerry</p>
-            <h2>Head of Tank Maintenance Department</h2>
+            <h2 id="members_lead3">Head of Tank Maintenance Department</h2>
             <p>CHUNG Shun Yi Chris</p>
-            <h2>Head of Public Relations Department</h2>
+            <h2 id="members_lead4">Head of Public Relations Department</h2>
             <p>WONG Tsz Ching Natalie</p>
-            <h2>Head of Accounting and Finance Department</h2>
+            <h2 id="members_lead5">Head of Accounting and Finance Department</h2>
             <p>LIU Ham Chi Annabelle</p>
-            <h2>Head of Art and Design Department</h2>
+            <h2 id="members_lead6">Head of Art and Design Department</h2>
             <p>TAM Eugene Simon</p>
-            <h2>Head of Web Development Department</h2>
+            <h2 id="members_lead7">Head of Web Development Department</h2>
             <p>CHIANG Pok Man</p>
-            <h2>Human Resource Manager</h2>
+            <h2 id="members_lead8">Human Resource Manager</h2>
             <p>DOU Xi Ao Leo</p>
-            <h2>Corallium Team Members</h2>
+            <h2 id="members_membersHeading">Corallium Team Members</h2>
         </div>
         <div id="departments_frame">LOADING...</div> <!--Inputted by membersdata.js-->
     </div>
@@ -93,4 +92,5 @@
 </div>
 <script src="membersPage/membersdata.js" defer></script>
 <script src="navigation.js" defer></script>
+<script src="languages.js" defer></script>
 </body>
