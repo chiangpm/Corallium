@@ -10,7 +10,7 @@ const placeholderText = [
 
 textContents = {
     nav_mission: [
-        "Mission statement",
+        "Mission",
         "使命宣言",
         "使命宣言"
     ],
@@ -19,16 +19,59 @@ textContents = {
         "成員",
         "成员"
     ],
+    nav_home: [
+        "Home",
+        "??",
+        "??"
+    ],
     nav_recruitment: [
-        "Join us!",
-        "加入我們！",
-        "加入我们！"
+        "Join us",
+        "加入我們",
+        "加入我们"
     ],
     nav_news: [
         "News",
         "最新動態",
         "最新动态"
     ],
+
+    mission_mainContent1Heading: [
+        "Mission statement",
+        "??",
+        "??"
+    ],
+
+    mission_mainContent1Text: placeholderText,
+
+    mission_mainContent2Heading: [
+        "Our approaches",
+        "??",
+        "??"
+    ],
+
+    mission_subheading1: [
+        "Work A",
+        "??",
+        "??"
+    ],
+
+    mission_mainContent2Text1: placeholderText,
+
+    mission_subheading2: [
+        "Work B",
+        "??",
+        "??"
+    ],
+
+    mission_mainContent2Text2: placeholderText,
+
+    mission_subheading3: [
+        "Work C",
+        "??",
+        "??"
+    ],
+
+    mission_mainContent2Text3: placeholderText,
     
     home_mainContent1Heading: [
         "What is our goal?",

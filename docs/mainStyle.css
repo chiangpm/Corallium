@@ -15,7 +15,7 @@
 
 #topbar_frame {
     position: relative;
-    width: min(120vh, 100vw);
+    aspect-ratio: 10;
     height: min(10vh, 8.333vw);
     margin: auto;
     /* background-color: #ff0000; */
@@ -46,32 +46,52 @@
     width: 70%;
     background-color: light-dark(#ffffff, #303030);
     font-size: min(3vh, 2.5vw);
+    border-width: 0px;
 }
 
 .navButton {
     position: relative;
     text-align: center;
     vertical-align: middle;
-    height: 60%;
-    aspect-ratio: 2.5;
-    background-color: light-dark(#ffffff, #505050);
-    font-size: min(2vh, 1.667vw);
+    border-width: 0;
+    height: 80%;
+    aspect-ratio: 2;
+    font-size: min(3vh, 2.5vw);
 }
 
-#nav_home {
+.nothomeButton {
+    background-color: transparent;
+}
+
+.homeButton {
+    background-color: light-dark(#ffffff, #505050);
+}
+
+.nav_vbar {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    border-width: 0;
+    height: 60%;
+    width: 1px;
+    background-color: light-dark(#000000, #ffffff);
+}
+
+/* #nav_home {
     position: relative;
     text-align: center;
     vertical-align: middle;
     height: 80%;
-    aspect-ratio: 3;
+    aspect-ratio: 2.5;
     background-color: #ffffff;
-    /* border: 0px solid transparent; */
+    border-width: 0;
     font-size: min(6vh, 5vw);
     background-image: url(coralliumLogo.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
+} */
 
 /* #logoimg {
     border: 2px solid #000000;

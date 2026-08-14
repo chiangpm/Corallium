@@ -30,7 +30,8 @@
 
 .home_contentSection {
     /* background-color: #ff00ff; */
-    margin: 20px 4vw;
+    margin: 20px auto;
+    width: 85vw;
     overflow: auto;
     font-size: larger;
 }

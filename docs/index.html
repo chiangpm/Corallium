@@ -3,22 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="color-scheme" content="light dark">
-<link href="style.css" rel="stylesheet">
+<link href="mainStyle.css" rel="stylesheet">
 <link href="membersPage/membersPageStyle.css" rel="stylesheet">
 <link href="homePage/homePageStyle.css" rel="stylesheet">
+<link href="missionPage/missionsPageStyle.css" rel="stylesheet">
 <title>Corallium YCIS</title>
 </head>
 <body>
 <div id="topbar">
     <div id="topbar_frame">
-        <button id="nav_mission" class="navButton" onclick="navclick_mission()">Mission statement</button>
-        <button id="nav_members" class="navButton" onclick="navclick_members()">Our team</button>
-        <button id="nav_home" onclick="navclick_home()"><!-- <img id="logoimg" src="coralliumLogo.jpg" alt="CORALLIUM"> --></button>
-        <button id="nav_recruitment" class="navButton" onclick="navclick_recruitment()">Join us!</button>
-        <button id="nav_news" class="navButton" onclick="navclick_news()">News</button>
+        <button id="nav_mission" class="navButton nothomeButton" onclick="navclick_mission()"></button>
+        <div class="nav_vbar"></div>
+        <button id="nav_members" class="navButton nothomeButton" onclick="navclick_members()"></button>
+        <div class="nav_vbar"></div>
+        <button id="nav_home" class="navButton homeButton" onclick="navclick_home()"><!-- <img id="logoimg" src="coralliumLogo.jpg" alt="CORALLIUM"> --></button>
+        <div class="nav_vbar"></div>
+        <button id="nav_recruitment" class="navButton nothomeButton" onclick="navclick_recruitment()"></button>
+        <div class="nav_vbar"></div>
+        <button id="nav_news" class="navButton nothomeButton" onclick="navclick_news()"></button>
     </div>
     <div id="topbar_frame_right">
-        <button id="config_lang" onclick="configclick_lang()">EN</button>
+        <button id="config_lang" onclick="configclick_lang()"></button>
     </div>
 </div>
 
@@ -32,7 +37,7 @@
         <div id="home_mainContentBackgroundFrame">
             <div id="home_mainContent1" class="home_contentSection">
                 <img id="home_mainContent1Image" src="placeholdercontent/imgportrait.jpg">
-                <h1 id="home_mainContent1Heading">What is our goal?</h1>
+                <h1 id="home_mainContent1Heading"></h1>
                 <p class="home_text" id="home_mainContent1Text1"></p>
                 <p class="home_text" id="home_mainContent1Text2"></p>
             </div>
@@ -41,7 +46,7 @@
                     <img id="home_mainContent2TopImage" src="placeholdercontent/imglandscape.jpg">
                     <img id="home_mainContent2BottomImage" src="placeholdercontent/imglandscape.jpg">
                 </div>
-                <h1 id="home_mainContent2Heading">What do we do?</h1>
+                <h1 id="home_mainContent2Heading"></h1>
                 <p class="home_text" id="home_mainContent2Text1"></p>
                 <p class="home_text" id="home_mainContent2Text2"></p>
             </div>
@@ -56,36 +61,60 @@
     </div>
 
     <div id="page_mission" class="contentspage nothome">
-        <h2>Our mission:</h2>
-        <p>abcdefgh</p>
+        <h1 id="mission_mainContent1Heading" class="mission_mainHeadings"></h1>
+        <div id="mission_mainContent1" class="mission_contentSection">
+            <img id="mission_mainContent1Image" src="placeholdercontent/imgportrait.jpg">
+            <p class="mission_text" id="mission_mainContent1Text"></p>
+        </div>
+        <h1 id="mission_mainContent2Heading" class="mission_mainHeadings"></h1>
+        <div id="mission_mainContent2" class="mission_contentSection">
+            <div>
+                <h2 id="mission_subheading1" class="mission_subheadings"></h1>
+                <img id="mission_mainContent2Image1" src="placeholdercontent/imglandscape.jpg">
+                <p class="mission_text" id="mission_mainContent2Text1"></p>
+            </div>
+            <div>
+                <h2 id="mission_subheading2" class="mission_subheadings"></h1>
+                <img id="mission_mainContent2Image2" src="placeholdercontent/imglandscape.jpg">
+                <p class="mission_text" id="mission_mainContent2Text2"></p>
+            </div>
+            <div>
+                <h2 id="mission_subheading3" class="mission_subheadings"></h1>
+                <img id="mission_mainContent2Image3" src="placeholdercontent/imglandscape.jpg">
+                <p class="mission_text" id="mission_mainContent2Text3"></p>
+            </div>
+        </div>
     </div>
+
     <div id="page_members" class="contentspage nothome">
         <img id="membersimg" src="membersPage/leadership team.jpg" alt="Corallium leadership team members">
         <p style="font-size: larger; margin-bottom: 20px;" id="members_photoSubheading">Corallium Leadership Team</p>
         <div style="font-size: large;">
-            <h1 id="members_lead1">Leader</h1>
+            <h1 id="members_lead1"></h1>
             <p>LING Kai Chun Kaden</p>
-            <h2 id="members_lead2">Secretary</h2>
+            <h2 id="members_lead2"></h2>
             <p>REN Wei Bo Kerry</p>
-            <h2 id="members_lead3">Head of Tank Maintenance Department</h2>
+            <h2 id="members_lead3"></h2>
             <p>CHUNG Shun Yi Chris</p>
-            <h2 id="members_lead4">Head of Public Relations Department</h2>
+            <h2 id="members_lead4"></h2>
             <p>WONG Tsz Ching Natalie</p>
-            <h2 id="members_lead5">Head of Accounting and Finance Department</h2>
+            <h2 id="members_lead5"></h2>
             <p>LIU Ham Chi Annabelle</p>
-            <h2 id="members_lead6">Head of Art and Design Department</h2>
+            <h2 id="members_lead6"></h2>
             <p>TAM Eugene Simon</p>
-            <h2 id="members_lead7">Head of Web Development Department</h2>
+            <h2 id="members_lead7"></h2>
             <p>CHIANG Pok Man</p>
-            <h2 id="members_lead8">Human Resource Manager</h2>
+            <h2 id="members_lead8"></h2>
             <p>DOU Xi Ao Leo</p>
-            <h2 id="members_membersHeading">Corallium Team Members</h2>
+            <h2 id="members_membersHeading"></h2>
         </div>
         <div id="departments_frame">LOADING...</div> <!--Inputted by membersdata.js-->
     </div>
+
     <div id="page_recruitment" class="contentspage nothome">
         <p>KADEN WHAT DO I PUT HERE???</p>
     </div>
+    
     <div id="page_news" class="contentspage nothome">
         <p>KADEN WHAT DO I PUT HERE??? x2</p>
     </div>

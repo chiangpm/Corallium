@@ -5,6 +5,13 @@ const membersPage = document.getElementById("page_members");
 const homePage = document.getElementById("page_home");
 const recruitmentPage = document.getElementById("page_recruitment");
 const newsPage = document.getElementById("page_news");
+
+const missionButton = document.getElementById("nav_mission")
+const membersButton = document.getElementById("nav_members")
+const homeButton = document.getElementById("nav_home")
+const recruitmentButton = document.getElementById("nav_recruitment")
+const newsButton = document.getElementById("nav_news")
+
 // const lightmodeButton = document.getElementById("lightmodebutton")
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -33,6 +40,12 @@ const navclick_mission = function() {
     homePage.style.display = "none";
     recruitmentPage.style.display = "none";
     newsPage.style.display = "none";
+
+    missionButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
+    membersButton.style.backgroundColor = "transparent";
+    homeButton.style.backgroundColor = "transparent";
+    recruitmentButton.style.backgroundColor = "transparent";
+    newsButton.style.backgroundColor = "transparent";
 }
 
 const navclick_members = function() {
@@ -41,6 +54,12 @@ const navclick_members = function() {
     homePage.style.display = "none";
     recruitmentPage.style.display = "none";
     newsPage.style.display = "none";
+
+    missionButton.style.backgroundColor = "transparent";
+    membersButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
+    homeButton.style.backgroundColor = "transparent";
+    recruitmentButton.style.backgroundColor = "transparent";
+    newsButton.style.backgroundColor = "transparent";
 }
 
 const navclick_home = function() {
@@ -49,6 +68,12 @@ const navclick_home = function() {
     homePage.style.display = "block";
     recruitmentPage.style.display = "none";
     newsPage.style.display = "none";
+
+    missionButton.style.backgroundColor = "transparent";
+    membersButton.style.backgroundColor = "transparent";
+    homeButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
+    recruitmentButton.style.backgroundColor = "transparent";
+    newsButton.style.backgroundColor = "transparent";
 }
 
 const navclick_recruitment = function() {
@@ -57,6 +82,12 @@ const navclick_recruitment = function() {
     homePage.style.display = "none";
     recruitmentPage.style.display = "block";
     newsPage.style.display = "none";
+
+    missionButton.style.backgroundColor = "transparent";
+    membersButton.style.backgroundColor = "transparent";
+    homeButton.style.backgroundColor = "transparent";
+    recruitmentButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
+    newsButton.style.backgroundColor = "transparent";
 }
 
 const navclick_news = function() {
@@ -65,4 +96,10 @@ const navclick_news = function() {
     homePage.style.display = "none";
     recruitmentPage.style.display = "none";
     newsPage.style.display = "block";
+
+    missionButton.style.backgroundColor = "transparent";
+    membersButton.style.backgroundColor = "transparent";
+    homeButton.style.backgroundColor = "transparent";
+    recruitmentButton.style.backgroundColor = "transparent";
+    newsButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
 }
