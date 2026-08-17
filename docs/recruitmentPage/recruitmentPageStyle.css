@@ -1,0 +1,17 @@
+#recruitment_topPhotoFrame {
+    position: relative;
+    display: flex;
+}
+
+.recruitment_topPhoto {
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    width: 33.333%;
+    float: left;
+}
+
+#recruitment_mainContent1 {
+    position: relative;
+    text-align: center;
+}

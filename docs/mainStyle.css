@@ -23,6 +23,21 @@
     font-size: min(8vh, 6.667vw);
 }
 
+#topbar_frame_left {
+    z-index: 2;
+    position: fixed;
+    height: min(10vh, 8.333vw);
+    top: 0%;
+    left: 0%;
+    aspect-ratio: 1;
+    /* background-color: #00ff00; */
+    text-align: center;
+    font-size: min(8vh, 6.667vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #topbar_frame_right {
     z-index: 2;
     position: fixed;
@@ -46,6 +61,17 @@
     width: 70%;
     background-color: light-dark(#ffffff, #303030);
     font-size: min(3vh, 2.5vw);
+    border-width: 0px;
+}
+
+#config_menu {
+    position: relative;
+    padding: 0;
+    text-align: center;
+    height: 70%;
+    width: 70%;
+    background-color: light-dark(#ffffff, #303030);
+    font-size: min(4vh, 3.333vw);
     border-width: 0px;
 }
 
@@ -139,3 +165,7 @@
     background-color: #ff00ff;
     height: 10000px;
 } */
+
+.default_text {
+    font-size: max(2vw, 14px);
+}

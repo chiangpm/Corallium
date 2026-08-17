@@ -164,6 +164,27 @@ textContents = {
         "Web Development Department",
         "網絡與技術部",
         "网络与技术部"
+    ],
+
+    recruitment_heading1: [
+        "Why join?",
+        "??",
+        "??"
+    ],
+    recruitment_text1: [
+        "CAS !!! WOW",
+        "??",
+        "??"
+    ],
+    recruitment_heading2: [
+        "How join?",
+        "??",
+        "??"
+    ],
+    recruitment_text2: [
+        "Uhh idk someone add a qr code here",
+        "??",
+        "??"
     ]
 }
 
@@ -183,6 +204,18 @@ function configclick_lang() {
         langButton.innerText = "繁";
     } else if (languageMode == LANG_SIMPCH) {
         langButton.innerText = "简";
+    }
+
+    //news text, treat this separately,
+    //newsTextEnglish, newsTextTradChinese, newsTextSimpChinese are
+    //defined in newsPage/newsText.js
+    const textObj = document.getElementById("news_temporaryNewsText");
+    if (languageMode == LANG_EN) {
+        textObj.innerText = newsTextEnglish;
+    } else if (languageMode == LANG_TRADCH) {
+        textObj.innerText = newsTextTradChinese;
+    } else if (languageMode == LANG_SIMPCH) {
+        textObj.innerText = newsTextSimpChinese;
     }
 }
 

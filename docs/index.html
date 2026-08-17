@@ -7,10 +7,15 @@
 <link href="membersPage/membersPageStyle.css" rel="stylesheet">
 <link href="homePage/homePageStyle.css" rel="stylesheet">
 <link href="missionPage/missionsPageStyle.css" rel="stylesheet">
+<link href="recruitmentPage/recruitmentPageStyle.css" rel="stylesheet">
+<link href="newsPage/newsPageStyle.css" rel="stylesheet">
 <title>Corallium YCIS</title>
 </head>
 <body>
 <div id="topbar">
+    <div id="topbar_frame_left">
+        <button id="config_menu" onclick="configclick_menu()">☰</button>
+    </div>
     <div id="topbar_frame">
         <button id="nav_mission" class="navButton nothomeButton" onclick="navclick_mission()"></button>
         <div class="nav_vbar"></div>
@@ -38,8 +43,8 @@
             <div id="home_mainContent1" class="home_contentSection">
                 <img id="home_mainContent1Image" src="placeholdercontent/imgportrait.jpg">
                 <h1 id="home_mainContent1Heading"></h1>
-                <p class="home_text" id="home_mainContent1Text1"></p>
-                <p class="home_text" id="home_mainContent1Text2"></p>
+                <p class="default_text" id="home_mainContent1Text1"></p>
+                <p class="default_text" id="home_mainContent1Text2"></p>
             </div>
             <div id="home_mainContent2" class="home_contentSection">
                 <div id="home_mainContent2ImagesFrame">
@@ -47,14 +52,14 @@
                     <img id="home_mainContent2BottomImage" src="placeholdercontent/imglandscape.jpg">
                 </div>
                 <h1 id="home_mainContent2Heading"></h1>
-                <p class="home_text" id="home_mainContent2Text1"></p>
-                <p class="home_text" id="home_mainContent2Text2"></p>
+                <p class="default_text" id="home_mainContent2Text1"></p>
+                <p class="default_text" id="home_mainContent2Text2"></p>
             </div>
             <div id="home_mainContent3" class="home_contentSection">
                 <img id="home_mainContent3Image" src="placeholdercontent/imglandscape.jpg">
                 <div id="home_mainContent3TextFrame">
-                    <p class="home_mainContent3Text home_text" id="home_mainContent3Text1"></p>
-                    <p class="home_mainContent3Text home_text" id="home_mainContent3Text2"></p>
+                    <p class="home_mainContent3Text default_text" id="home_mainContent3Text1"></p>
+                    <p class="home_mainContent3Text default_text" id="home_mainContent3Text2"></p>
                 </div>
             </div>
         </div>
@@ -64,24 +69,24 @@
         <h1 id="mission_mainContent1Heading" class="mission_mainHeadings"></h1>
         <div id="mission_mainContent1" class="mission_contentSection">
             <img id="mission_mainContent1Image" src="placeholdercontent/imgportrait.jpg">
-            <p class="mission_text" id="mission_mainContent1Text"></p>
+            <p class="default_text" id="mission_mainContent1Text"></p>
         </div>
         <h1 id="mission_mainContent2Heading" class="mission_mainHeadings"></h1>
         <div id="mission_mainContent2" class="mission_contentSection">
             <div>
                 <h2 id="mission_subheading1" class="mission_subheadings"></h1>
                 <img id="mission_mainContent2Image1" src="placeholdercontent/imglandscape.jpg">
-                <p class="mission_text" id="mission_mainContent2Text1"></p>
+                <p class="default_text" id="mission_mainContent2Text1"></p>
             </div>
             <div>
                 <h2 id="mission_subheading2" class="mission_subheadings"></h1>
                 <img id="mission_mainContent2Image2" src="placeholdercontent/imglandscape.jpg">
-                <p class="mission_text" id="mission_mainContent2Text2"></p>
+                <p class="default_text" id="mission_mainContent2Text2"></p>
             </div>
             <div>
                 <h2 id="mission_subheading3" class="mission_subheadings"></h1>
                 <img id="mission_mainContent2Image3" src="placeholdercontent/imglandscape.jpg">
-                <p class="mission_text" id="mission_mainContent2Text3"></p>
+                <p class="default_text" id="mission_mainContent2Text3"></p>
             </div>
         </div>
     </div>
@@ -91,35 +96,46 @@
         <p style="font-size: larger; margin-bottom: 20px;" id="members_photoSubheading">Corallium Leadership Team</p>
         <div style="font-size: large;">
             <h1 id="members_lead1"></h1>
-            <p>LING Kai Chun Kaden</p>
+            <p class="default_text">LING Kai Chun Kaden</p>
             <h2 id="members_lead2"></h2>
-            <p>REN Wei Bo Kerry</p>
+            <p class="default_text">REN Wei Bo Kerry</p>
             <h2 id="members_lead3"></h2>
-            <p>CHUNG Shun Yi Chris</p>
+            <p class="default_text">CHUNG Shun Yi Chris</p>
             <h2 id="members_lead4"></h2>
-            <p>WONG Tsz Ching Natalie</p>
+            <p class="default_text">WONG Tsz Ching Natalie</p>
             <h2 id="members_lead5"></h2>
-            <p>LIU Ham Chi Annabelle</p>
+            <p class="default_text">LIU Ham Chi Annabelle</p>
             <h2 id="members_lead6"></h2>
-            <p>TAM Eugene Simon</p>
+            <p class="default_text">TAM Eugene Simon</p>
             <h2 id="members_lead7"></h2>
-            <p>CHIANG Pok Man</p>
+            <p class="default_text">CHIANG Pok Man</p>
             <h2 id="members_lead8"></h2>
-            <p>DOU Xi Ao Leo</p>
+            <p class="default_text">DOU Xi Ao Leo</p>
             <h2 id="members_membersHeading"></h2>
         </div>
         <div id="departments_frame">LOADING...</div> <!--Inputted by membersdata.js-->
     </div>
 
     <div id="page_recruitment" class="contentspage nothome">
-        <p>KADEN WHAT DO I PUT HERE???</p>
+        <div id="recruitment_topPhotoFrame">
+            <img src="placeholdercontent/imgportrait.jpg" class="recruitment_topPhoto">
+            <img src="placeholdercontent/imgportrait.jpg" class="recruitment_topPhoto">
+            <img src="placeholdercontent/imgportrait.jpg" class="recruitment_topPhoto">
+        </div>
+        <div id="recruitment_mainContent1">
+            <h1 id="recruitment_heading1" class="recruitment_text"></h1>
+            <p id="recruitment_text1" class="default_text"></p>
+            <h1 id="recruitment_heading2"></h1>
+            <p id="recruitment_text2" class="default_text"></p>
+        </div>
     </div>
     
     <div id="page_news" class="contentspage nothome">
-        <p>KADEN WHAT DO I PUT HERE??? x2</p>
+        <p class="default_text" id="news_temporaryNewsText"></p>
     </div>
 </div>
 <script src="membersPage/membersdata.js" defer></script>
 <script src="navigation.js" defer></script>
 <script src="languages.js" defer></script>
+<script src="newsPage/newsText.js" defer></script>
 </body>

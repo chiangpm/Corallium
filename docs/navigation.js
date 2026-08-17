@@ -103,3 +103,25 @@ const navclick_news = function() {
     recruitmentButton.style.backgroundColor = "transparent";
     newsButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
 }
+
+
+let menuOpen = true;
+function configclick_menu() {
+    const menuButton = document.getElementById("config_menu");
+    const topBarMain = document.getElementById("topbar");
+    const topBarMid = document.getElementById("topbar_frame");
+    const topBarRight = document.getElementById("topbar_frame_right");
+    const contentsFrame = document.getElementById("contents_frame");
+    menuOpen = ! menuOpen;
+    if (menuOpen) {
+        topBarMid.style.visibility = "visible";
+        topBarRight.style.visibility = "visible";
+        topBarMain.style.backgroundColor = "light-dark(#8ba6e3, #303030)";
+        contentsFrame.style.top = "min(10vh, 8.333vw)";
+    } else {
+        topBarMid.style.visibility = "hidden";
+        topBarRight.style.visibility = "hidden";
+        topBarMain.style.backgroundColor = "transparent";
+        contentsFrame.style.top = "0";
+    }
+}
