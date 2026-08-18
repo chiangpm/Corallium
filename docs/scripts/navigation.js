@@ -14,15 +14,16 @@ const newsButton = document.getElementById("nav_news")
 
 // const lightmodeButton = document.getElementById("lightmodebutton")
 
+//load the members groups and members names
 document.addEventListener("DOMContentLoaded", function() {
     const getMembersFormattedHTML = function() {
         let htmlContent = "";
         for (let departmentID = 0; departmentID < membersData.length; departmentID++) {
             htmlContent += "<div class=\"departmentmemberslist\">";
             // htmlContent += "<h2 id=\"" + membersData[departmentID].id + "\">" + String(membersData[departmentID].departmentName) + "</h2>";
-            htmlContent += "<h2 id=\"" + membersData[departmentID].id + "\"></h2>";
+            htmlContent += "<h2 class=\"departmentTitles\" id=\"" + membersData[departmentID].id + "\"></h2>";
             for (let memberID = 0; memberID < (membersData[departmentID].departmentMembers).length; memberID++) {
-                htmlContent += "<p>" + String(membersData[departmentID].departmentMembers[memberID]) + "</p>";
+                htmlContent += "<p class=\"departmentText\">" + String(membersData[departmentID].departmentMembers[memberID]) + "</p>";
             }
             htmlContent += "</div>";
         }

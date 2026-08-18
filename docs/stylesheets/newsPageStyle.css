@@ -1,0 +1,42 @@
+#news_temporaryNewsText {
+    position: relative;
+}
+
+#page_news {
+    margin: 20px auto;
+    width: 85vw;
+    overflow: auto;
+    font-size: larger;
+}
+
+#news_dataFrame {
+    position: relative;
+    background-color: cyan;
+}
+
+.news_entryBox {
+    position: relative;
+    margin: 10px auto;
+    background-color: aliceblue;
+    width: 90%;
+    border: 20px;
+}
+
+.news_entryDate {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(198, 202, 128);
+}
+
+.news_dateText {
+    text-indent: 10px;
+}
+
+.news_titleText {
+    text-align: center;
+}
+
+.news_mainText {
+    padding: 15px;
+}

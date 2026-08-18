@@ -18,6 +18,9 @@
     aspect-ratio: 10;
     height: min(10vh, 8.333vw);
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* background-color: #ff0000; */
     text-align: center;
     font-size: min(8vh, 6.667vw);
@@ -62,6 +65,7 @@
     background-color: light-dark(#ffffff, #303030);
     font-size: min(3vh, 2.5vw);
     border-width: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #config_menu {
@@ -73,16 +77,22 @@
     background-color: light-dark(#ffffff, #303030);
     font-size: min(4vh, 3.333vw);
     border-width: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navButton {
     position: relative;
     text-align: center;
     vertical-align: middle;
-    border-width: 0;
-    height: 80%;
-    aspect-ratio: 2;
+    border-width: 0px;
+    margin: min(1.2vh, 1vw);
+    height: 70%;
+    aspect-ratio: 2.2;
     font-size: min(3vh, 2.5vw);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0px;
 }
 
 .nothomeButton {
@@ -167,5 +177,25 @@
 } */
 
 .default_text {
-    font-size: max(2vw, 14px);
+    font-size: max(1.6vw, 14px); /*max(2vw, 14px)*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.title_text_1 {
+    font-size: max(3vw, 21px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.title_text_2 {
+    font-size: max(2.2vw, 16px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.default_margins {
+    margin: 20px auto;
+    width: 85vw;
+    overflow: auto;
 }

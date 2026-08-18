@@ -1,11 +1,3 @@
-.mission_contentSection {
-    /* background-color: #ff00ff; */
-    margin: 20px auto;
-    width: 85%;
-    overflow: auto;
-    font-size: larger;
-}
-
 .mission_mainHeadings {
     position: relative;
     text-align: center;

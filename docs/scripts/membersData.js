@@ -7,7 +7,9 @@ const membersData = [
             "LI Shing Hing Cathy",
             "KWOK Wing Chi Gigi",
             "OUYANG Yuesheng Kevin",
-            "WANG Zuncheng Marco"
+            "WANG Zuncheng Marco",
+            "HUI Chi Long",
+            "FONG Wai Yan Jade"
         ],
     },
     {
@@ -19,7 +21,8 @@ const membersData = [
             "CHAN Man Yung Jaslyn",
             "CHEN Chiu Tung Coco",
             "TANG Chuck Fung Tristan",
-            "LEUNG Chin Ying Ariana"
+            "LEUNG Chin Ying Ariana",
+            "HUI Chi Long"
         ],
     },
     {
@@ -41,7 +44,9 @@ const membersData = [
             "NG Hin Yan Rebecca",
             "LI Sicheng Edwina",
             "LEUNG Chin Ying Ariana",
-            "ZHOU Mo"
+            "ZHOU Mo",
+            "CHEN Chiu Tung Coco",
+            "FONG Wai Yan Jade"
         ]
     },
     {
