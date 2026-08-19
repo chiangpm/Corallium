@@ -29,7 +29,7 @@ const membersData = [
         id: "members_dep3",
         // departmentName: "Accounting and Finance Department",
         departmentMembers: [
-            "Accounting and Finance Team",
+            // "Accounting and Finance Team", // This is extra
             "FONG Wai Yan Jade",
             "FU Ho Ka Bobby",
             "OUYANG Yuesheng Kevin"
