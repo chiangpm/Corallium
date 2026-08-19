@@ -11,18 +11,18 @@ const placeholderText = [
 textContents = {
     nav_mission: [
         "Mission",
-        "使命宣言",
-        "使命宣言"
+        "使命",
+        "使命"
     ],
     nav_members: [
         "Our team",
-        "成員",
-        "成员"
+        "團隊成員",
+        "团队成员"
     ],
     nav_home: [
         "Home",
-        "??",
-        "??"
+        "主頁",
+        "主页"
     ],
     nav_recruitment: [
         "Join us",
@@ -37,16 +37,16 @@ textContents = {
 
     mission_mainContent1Heading: [
         "Mission statement",
-        "??",
-        "??"
+        "使命宣言",
+        "使命宣言"
     ],
 
     mission_mainContent1Text: placeholderText,
 
     mission_mainContent2Heading: [
         "Our approaches",
-        "??",
-        "??"
+        "我們的策略",
+        "我们的策略"
     ],
 
     mission_subheading1: [
@@ -97,8 +97,8 @@ textContents = {
     ],
     members_lead1: [
         "Leader",
-        "領導人",
-        "领导人"
+        "領導",
+        "领导"
     ],
     members_lead2: [
         "Secretary",
@@ -137,8 +137,8 @@ textContents = {
     ],
     members_membersHeading: [
         "Corallium Team Members",
-        "其他成員",
-        "其他成员"
+        "Corallium 成員",
+        "Corallium 成员"
     ],
     members_dep1: [
         "Tank Maintenance Department",
@@ -167,9 +167,9 @@ textContents = {
     ],
 
     recruitment_heading1: [
-        "Why join?",
-        "??",
-        "??"
+        "Why should you join us?",
+        "為何加入我們",
+        "为何加入我们"
     ],
     recruitment_text1: [
         "CAS !!! WOW",
@@ -177,9 +177,9 @@ textContents = {
         "??"
     ],
     recruitment_heading2: [
-        "How join?",
-        "??",
-        "??"
+        "Apply Now",
+        "申請渠道",
+        "申请渠道"
     ],
     recruitment_text2: [
         "Uhh idk someone add a qr code here",
@@ -189,8 +189,8 @@ textContents = {
 
     news_title: [
         "Corallium News",
-        "??",
-        "??"
+        "Corallium 資訊",
+        "Corallium 资讯"
     ]
 }
 
