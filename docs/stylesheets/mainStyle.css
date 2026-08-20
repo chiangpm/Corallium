@@ -11,6 +11,8 @@
     top: 0;
     left: 0;
     background-color: light-dark(#8ba6e3, #303030);
+    /* round corners */
+    border-radius: 0px 0px 40px 40px;
 }
 
 #topbar_frame {
@@ -93,6 +95,7 @@
     white-space: nowrap;
     overflow: hidden;
     padding: 0px;
+    border-radius: 999px;
 }
 
 .nothomeButton {

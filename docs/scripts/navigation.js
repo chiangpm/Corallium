@@ -12,6 +12,18 @@ const homeButton = document.getElementById("nav_home")
 const recruitmentButton = document.getElementById("nav_recruitment")
 const newsButton = document.getElementById("nav_news")
 
+// Set the active navigation button and update the styles accordingly
+const setActiveNavButton = function(activeButton) {
+    const navButtons = [missionButton, membersButton, homeButton, recruitmentButton, newsButton]
+    navButtons.forEach(function(button) {
+        button.classList.remove("homeButton");
+        button.classList.add("nothomeButton");
+    });
+
+    activeButton.classList.remove("nothomeButton");
+    activeButton.classList.add("homeButton");
+}
+
 // const lightmodeButton = document.getElementById("lightmodebutton")
 
 //load the members groups and members names
@@ -34,7 +46,17 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("departments_frame").innerHTML = getMembersFormattedHTML();
 });
 
+const navButtons = document.querySelectorAll(".navButton");
 
+navButtons.forEach((button) => {
+    button.addEventListener("mouseenter", () => {
+        button.style.backgroundColor = "#505050";
+    });
+
+    button.addEventListener("mouseleave", () => {
+        button.style.backgroundColor = "";
+    });
+});
 const navclick_mission = function() {
     missionPage.style.display = "block";
     membersPage.style.display = "none";
@@ -42,11 +64,7 @@ const navclick_mission = function() {
     recruitmentPage.style.display = "none";
     newsPage.style.display = "none";
 
-    missionButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
-    membersButton.style.backgroundColor = "transparent";
-    homeButton.style.backgroundColor = "transparent";
-    recruitmentButton.style.backgroundColor = "transparent";
-    newsButton.style.backgroundColor = "transparent";
+    setActiveNavButton(missionButton);
 }
 
 const navclick_members = function() {
@@ -56,11 +74,7 @@ const navclick_members = function() {
     recruitmentPage.style.display = "none";
     newsPage.style.display = "none";
 
-    missionButton.style.backgroundColor = "transparent";
-    membersButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
-    homeButton.style.backgroundColor = "transparent";
-    recruitmentButton.style.backgroundColor = "transparent";
-    newsButton.style.backgroundColor = "transparent";
+    setActiveNavButton(membersButton);
 }
 
 const navclick_home = function() {
@@ -70,11 +84,7 @@ const navclick_home = function() {
     recruitmentPage.style.display = "none";
     newsPage.style.display = "none";
 
-    missionButton.style.backgroundColor = "transparent";
-    membersButton.style.backgroundColor = "transparent";
-    homeButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
-    recruitmentButton.style.backgroundColor = "transparent";
-    newsButton.style.backgroundColor = "transparent";
+    setActiveNavButton(homeButton);
 }
 
 const navclick_recruitment = function() {
@@ -84,11 +94,7 @@ const navclick_recruitment = function() {
     recruitmentPage.style.display = "block";
     newsPage.style.display = "none";
 
-    missionButton.style.backgroundColor = "transparent";
-    membersButton.style.backgroundColor = "transparent";
-    homeButton.style.backgroundColor = "transparent";
-    recruitmentButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
-    newsButton.style.backgroundColor = "transparent";
+    setActiveNavButton(recruitmentButton);
 }
 
 const navclick_news = function() {
@@ -98,11 +104,7 @@ const navclick_news = function() {
     recruitmentPage.style.display = "none";
     newsPage.style.display = "block";
 
-    missionButton.style.backgroundColor = "transparent";
-    membersButton.style.backgroundColor = "transparent";
-    homeButton.style.backgroundColor = "transparent";
-    recruitmentButton.style.backgroundColor = "transparent";
-    newsButton.style.backgroundColor = "light-dark(#ffffff, #505050)";
+    setActiveNavButton(newsButton);
 }
 
 
