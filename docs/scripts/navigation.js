@@ -51,6 +51,7 @@ const navButtons = document.querySelectorAll(".navButton");
 navButtons.forEach((button) => {
     button.addEventListener("mouseenter", () => {
         button.style.backgroundColor = "#505050";
+
     });
 
     button.addEventListener("mouseleave", () => {

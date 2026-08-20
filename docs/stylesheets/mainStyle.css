@@ -1,8 +1,14 @@
 :root {
     color-scheme: light dark;
     background-color: light-dark(#b0c0e8, #202020);
+    
 }
-
+button, 
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"] {
+  cursor: pointer;
+}
 #topbar {
     z-index: 1;
     position: fixed;
@@ -12,7 +18,8 @@
     left: 0;
     background-color: light-dark(#8ba6e3, #303030);
     /* round corners */
-    border-radius: 0px 0px 40px 40px;
+    border-radius: 0px 0px 50px 50px;
+    opacity:0.9;
 }
 
 #topbar_frame {
@@ -81,6 +88,10 @@
     border-width: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
+
 
 .navButton {
     position: relative;
