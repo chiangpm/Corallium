@@ -15,7 +15,7 @@ textContents = {
         "使命"
     ],
     nav_members: [
-        "Our team",
+        "Our Team",
         "團隊成員",
         "团队成员"
     ],
@@ -25,7 +25,7 @@ textContents = {
         "主页"
     ],
     nav_recruitment: [
-        "Join us",
+        "Join Us",
         "加入我們",
         "加入我们"
     ],

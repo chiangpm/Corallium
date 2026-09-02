@@ -1,8 +1,14 @@
 :root {
     color-scheme: light dark;
     background-color: light-dark(#b0c0e8, #202020);
+    
 }
-
+button, 
+input[type="button"], 
+input[type="submit"], 
+input[type="reset"] {
+  cursor: pointer;
+}
 #topbar {
     z-index: 1;
     position: fixed;
@@ -11,6 +17,9 @@
     top: 0;
     left: 0;
     background-color: light-dark(#8ba6e3, #303030);
+    /* round corners */
+    border-radius: 0px 0px 50px 50px;
+    opacity:0.9;
 }
 
 #topbar_frame {
@@ -80,6 +89,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
+
+
+
 .navButton {
     position: relative;
     text-align: center;
@@ -93,6 +106,7 @@
     white-space: nowrap;
     overflow: hidden;
     padding: 0px;
+    border-radius: 999px;
 }
 
 .nothomeButton {
