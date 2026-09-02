@@ -14,19 +14,20 @@
     position: relative;
     float: right;
     width: 40%;
-    margin: 2vw 1vw;
+    aspect-ratio: 1.5;
+    margin: 0vw 1vw 2vw 0vw;
 }
 
 #mission_mainContent2Image2 {
     position: relative;
     float: right;
     width: 40%;
-    margin: 2vw 1vw;
+    margin: 0vw 1vw 2vw 0vw;
 }
 
 #mission_mainContent2Image3 {
     position: relative;
     float: right;
     width: 40%;
-    margin: 2vw 1vw;
+    margin: 0vw 1vw 2vw 0vw;
 }

@@ -3,7 +3,7 @@
     text-align: center;
     /* background-color: #98264a; */
     color: #ffffff;
-    background-image: url(homeBackground.png);
+    background-image: url(../media/homePage/homeBackground.png); /* ".." is docs folder */
     background-size: 100% auto;
     background-repeat: no-repeat;
     aspect-ratio: 1.32;
@@ -38,7 +38,9 @@
 #home_mainContent2TopImage {
     position: relative;
     width: 100%;
-    margin: 1vw 0vw;
+    margin: 0vw 1vw 0vw 0vw;
+    aspect-ratio: 1.2;
+    object-fit: cover;
 }
 
 #home_mainContent2BottomImage {
@@ -74,4 +76,8 @@
     position: relative;
     width: 45%;
     margin: 3%;
+}
+
+#home_mainContent2Heading {
+    text-align: center;
 }
