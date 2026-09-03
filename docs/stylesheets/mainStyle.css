@@ -16,10 +16,9 @@ input[type="reset"] {
     height: min(10vh, 8.333vw);
     top: 0;
     left: 0;
-    background-color: light-dark(#8ba6e3, #303030);
+    background-color: light-dark(#8ba6e3d0, #303030d0);
     /* round corners */
     border-radius: 0px 0px 50px 50px;
-    opacity:0.9;
 }
 
 #topbar_frame {

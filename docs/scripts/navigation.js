@@ -120,7 +120,7 @@ function configclick_menu() {
     if (menuOpen) {
         topBarMid.style.visibility = "visible";
         topBarRight.style.visibility = "visible";
-        topBarMain.style.backgroundColor = "light-dark(#8ba6e3, #303030)";
+        topBarMain.style.backgroundColor = "light-dark(#8ba6e3d0, #303030d0)";
         contentsFrame.style.top = "min(10vh, 8.333vw)";
     } else {
         topBarMid.style.visibility = "hidden";
