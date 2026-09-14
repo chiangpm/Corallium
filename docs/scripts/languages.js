@@ -41,7 +41,11 @@ textContents = {
         "使命宣言"
     ],
 
-    mission_mainContent1Text: placeholderText,
+    mission_mainContent1Text: [
+        "To promote the conservation and protection of Coral species in Hong Kong through coral cultivation and supporting legal channels of coral distribution",
+        "?",
+        "?"
+    ],
 
     mission_mainContent2Heading: [
         "Our approaches",
@@ -50,23 +54,31 @@ textContents = {
     ],
 
     mission_subheading1: [
-        "Work A",
+        "Fish Tank",
         "??",
         "??"
     ],
 
-    mission_mainContent2Text1: placeholderText,
+    mission_mainContent2Text1: [
+        "In CCDD, we have fishies wowowowow",
+        "?",
+        "?"
+    ],
 
     mission_subheading2: [
-        "Work B",
+        "Coral Tank",
         "??",
         "??"
     ],
 
-    mission_mainContent2Text2: placeholderText,
+    mission_mainContent2Text2: [
+        "On the seventh floor, the coral tank is broken right now :(",
+        "?",
+        "?"
+    ],
 
     mission_subheading3: [
-        "Work C",
+        "Outside School Activities",
         "??",
         "??"
     ],
@@ -78,15 +90,27 @@ textContents = {
         "我們的目標",
         "我们的目标"
     ],
-    home_mainContent1Text1: placeholderText,
-    home_mainContent1Text2: placeholderText,
+    home_mainContent1Text1: [
+        "We work with both local and international communities to actively advocate for coral conservation. We aim to distribute artificially grown coral to help offset threats to coral like wildlife harvesting and illegal trade.",
+        "?",
+        "?"
+    ],
+    home_mainContent1Text2: [
+        "Since 2019, our CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, tetra, abalones, sea snails, and algae.",
+        "?",
+        "?"
+    ],
     home_mainContent2Heading: [
         "What do we do?",
         "我們的工作",
         "我们的工作",
     ],
     home_mainContent2Text1: placeholderText,
-    home_mainContent2Text2: placeholderText,
+    home_mainContent2Text2: [
+        "We split this project into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. This division of labor allows each member to develop a focused skillset in a practical manner to the best of everyone's abilities. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
+        "??",
+        ""
+    ],
     home_mainContent3Text1: placeholderText,
     home_mainContent3Text2: placeholderText,
 

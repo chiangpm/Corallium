@@ -18,7 +18,7 @@ input[type="reset"] {
     left: 0;
     background-color: light-dark(#8ba6e3d0, #303030d0);
     /* round corners */
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 0px min(5vh, 4.167vw) min(5vh, 4.167vw);
 }
 
 #topbar_frame {

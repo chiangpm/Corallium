@@ -32,28 +32,45 @@
     position: relative;
     float: right;
     width: 30%;
-    margin: 2vw 1vw;
+}
+
+#home_imagesRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home_imagesRowImage {
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    width: 33.333%;
+    aspect-ratio: 0.8;
+    object-fit: cover;
+    float: left;
 }
 
 #home_mainContent2TopImage {
     position: relative;
     width: 100%;
-    margin: 0vw 1vw 0vw 0vw;
-    aspect-ratio: 1.2;
+    margin: 0vw 0vw 0vw 0vw;
+    aspect-ratio: 1.5;
     object-fit: cover;
 }
 
 #home_mainContent2BottomImage {
     position: relative;
     width: 100%;
-    margin: 1vw 0vw;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    margin: 2vw 0vw 0vw 0vw;
 }
 
 #home_mainContent2ImagesFrame {
     position: relative;
     float: left;
     width: 40%;
-    margin: 2vw 1vw;
+    margin: 0vw 2vw 0vw 0vw;
 }
 
 #home_mainContent3Image {
