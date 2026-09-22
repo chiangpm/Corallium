@@ -50,6 +50,6 @@ const fishFactsText = [
     }
 ]
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
     homeclick_fishFactsScroll(Math.floor(Date.now()));
 });

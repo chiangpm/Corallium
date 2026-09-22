@@ -288,6 +288,6 @@ function configclick_lang() {
     // }
 }
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
     configclick_lang()
 });
