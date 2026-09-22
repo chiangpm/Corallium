@@ -32,6 +32,7 @@
     position: relative;
     float: right;
     width: 30%;
+    margin: 0px 0px 2px 10px;
 }
 
 #home_imagesRow {
@@ -73,27 +74,42 @@
     margin: 0vw 2vw 0vw 0vw;
 }
 
-#home_mainContent3Image {
+/* #home_mainContent3Image {
     position: relative;
     float: top;
     width: 100%;
     height: 20vw;
     vertical-align: auto;
-}
+} */
 
-#home_mainContent3TextFrame {
+#home_fishFactsFrame {
     position: relative;
     margin: auto;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
+    grid-template-columns: 8% 74% 8%;
+    width: 90%;
 }
 
-.home_mainContent3Text {
-    position: relative;
-    width: 45%;
-    margin: 3%;
+#home_fishFactsHeading {
+    text-align: center;
 }
+
+#home_fishFactsText {
+    position: relative;
+    padding: 0% 5% 0% 5%;
+}
+
+.home_fishFactsScrollButton {
+    position: relative;
+    display: block;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-width: 0px;
+    font-size: 3vw;
+}
+
 
 #home_mainContent2Heading {
     text-align: center;

@@ -10,6 +10,7 @@
 <link href="stylesheets/membersPageStyle.css" rel="stylesheet">
 <link href="stylesheets/recruitmentPageStyle.css" rel="stylesheet">
 <link href="stylesheets/newsPageStyle.css" rel="stylesheet">
+<link href="stylesheets/colors.css" rel="stylesheet">
 <title>Corallium YCIS</title>
 </head>
 <body>
@@ -36,7 +37,7 @@
 <div id="contents_frame">
     <div id="page_home" class="contentspage home">
         <div id="home_topBackgroundFrame">
-            <h1 style="font-size: 2vw;" class="default_text">YCIS-HK</h1>
+            <h1 style="font-size: 2vw; font-family: Verdana, Geneva, Tahoma, sans-serif; color:#ffffff; font-weight: normal;">YCIS-HK</h1>
             <img src="media/homePage/coralliumLogo.jpg" id="home_pageHeadingImg" alt="CORALLIUM">
         </div>
         <!-- <img src="homePage/homeBackground.jpg" id="home_coralTransition"> -->
@@ -62,9 +63,11 @@
                 <img src="media/homePage/Coral_frogspawn.jpg" class="home_imagesRowImage">
             </div>
             <div id="home_mainContent3" class="default_margins">
-                <div id="home_mainContent3TextFrame">
-                    <p class="home_mainContent3Text default_text" id="home_mainContent3Text1"></p>
-                    <p class="home_mainContent3Text default_text" id="home_mainContent3Text2"></p>
+                <h1 id="home_fishFactsHeading" class="title_text_1"></h1>
+                <div id="home_fishFactsFrame">
+                    <button id="home_fishFactsLeftButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(-1)">&lt;</button>
+                    <p class="default_text" id="home_fishFactsText"></p>
+                    <button id="home_fishFactsRightButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(1)">&gt;</button>
                 </div>
             </div>
         </div>
@@ -73,7 +76,7 @@
     <div id="page_mission" class="contentspage nothome">
         <div id="mission_missionStatementContainer" class="default_margins">
             <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
-            <p id="mission_mainContent1Text" class="default_text"></p>
+            <p id="mission_mainContent1Text"></p>
         </div>
         <!-- <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
         <div id="mission_mainContent1" class="default_margins"> -->
@@ -102,7 +105,6 @@
 
     <div id="page_members" class="contentspage nothome">
         <img id="membersimg" src="media/membersPage/leadership team.jpg" alt="Corallium leadership team members">
-        <p style="font-size: larger; margin-bottom: 20px;" id="members_photoSubheading">Corallium Leadership Team</p>
         <div style="font-size: large;">
             <h1 id="members_lead1" class="title_text_1"></h1>
             <p class="default_text">LING Kai Chun Kaden</p>
@@ -148,4 +150,5 @@
 <script src="scripts/newsData.js" defer></script>
 <script src="scripts/languages.js" defer></script>
 <script src="scripts/navigation.js" defer></script>
+<script src="scripts/fishFacts.js" defer></script>
 </body>

@@ -50,7 +50,7 @@ const navButtons = document.querySelectorAll(".navButton");
 
 navButtons.forEach((button) => {
     button.addEventListener("mouseenter", () => {
-        button.style.backgroundColor = "#505050";
+        button.style.backgroundColor = "var(--colors-navbar-buttons-selected)";
 
     });
 
@@ -120,7 +120,7 @@ function configclick_menu() {
     if (menuOpen) {
         topBarMid.style.visibility = "visible";
         topBarRight.style.visibility = "visible";
-        topBarMain.style.backgroundColor = "light-dark(#8ba6e3d0, #303030d0)";
+        topBarMain.style.backgroundColor = "var(--colors-navbar)";
         contentsFrame.style.top = "min(10vh, 8.333vw)";
     } else {
         topBarMid.style.visibility = "hidden";

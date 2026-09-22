@@ -1,6 +1,6 @@
 :root {
     color-scheme: light dark;
-    background-color: light-dark(#b0c0e8, #202020);
+    background-color: var(--colors-background);
     
 }
 button, 
@@ -16,7 +16,7 @@ input[type="reset"] {
     height: min(10vh, 8.333vw);
     top: 0;
     left: 0;
-    background-color: light-dark(#8ba6e3d0, #303030d0);
+    background-color: var(--colors-navbar);
     /* round corners */
     border-radius: 0px 0px min(5vh, 4.167vw) min(5vh, 4.167vw);
 }
@@ -70,10 +70,12 @@ input[type="reset"] {
     text-align: center;
     height: 70%;
     width: 70%;
-    background-color: light-dark(#ffffff, #303030);
+    background-color: var(--colors-navbar-buttons-lang);
     font-size: min(3vh, 2.5vw);
     border-width: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 #config_menu {
@@ -82,7 +84,7 @@ input[type="reset"] {
     text-align: center;
     height: 70%;
     width: 70%;
-    background-color: light-dark(#ffffff, #303030);
+    background-color: var(--colors-navbar-buttons);
     font-size: min(4vh, 3.333vw);
     border-width: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -106,6 +108,7 @@ input[type="reset"] {
     overflow: hidden;
     padding: 0px;
     border-radius: 999px;
+    appearance: none;
 }
 
 .nothomeButton {
@@ -113,7 +116,7 @@ input[type="reset"] {
 }
 
 .homeButton {
-    background-color: light-dark(#ffffff, #505050);
+    background-color: var(--colors-navbar-buttons);
 }
 
 .nav_vbar {
@@ -124,7 +127,7 @@ input[type="reset"] {
     border-width: 0;
     height: 60%;
     width: 1px;
-    background-color: light-dark(#000000, #ffffff);
+    background-color: var(--colors-text);
 }
 
 /* #nav_home {
@@ -190,18 +193,21 @@ input[type="reset"] {
 } */
 
 .default_text {
+    color: var(--colors-text);
     font-size: max(1.6vw, 14px); /*max(2vw, 14px)*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
 }
 
 .title_text_1 {
+    color: var(--colors-text);
     font-size: max(3vw, 21px);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
 
 .title_text_2 {
+    color: var(--colors-text);
     font-size: max(2.2vw, 16px);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;

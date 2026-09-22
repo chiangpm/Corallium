@@ -1,0 +1,13 @@
+:root {
+    --colors-navbar-buttons: light-dark(#ffffff, #2a2e37);
+    --colors-navbar-buttons-selected: light-dark(#808080, #505050);
+    --colors-navbar-buttons-lang: light-dark(#e75d36, #d03e7c);
+    --colors-navbar: light-dark(#c8dee9a0, #262626a0);
+    --colors-background: light-dark(#d3e4ed, #202020);
+    --colors-text: light-dark(#000000, #ffffff);
+    --colors-mission-statement: light-dark(#ffffff, #404040);
+    --colors-memberlist-background: light-dark(#ffffff, #121212);
+    --colors-memberlist-box: light-dark(#b7cdd7, #323232);
+    --colors-news-main: light-dark(#f0f8ff, #323232);
+    --colors-news-heading: light-dark(#c6ca80, #494949);
+}

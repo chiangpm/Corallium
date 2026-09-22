@@ -11,13 +11,12 @@
 
 #news_dataFrame {
     position: relative;
-    background-color: cyan;
 }
 
 .news_entryBox {
     position: relative;
     margin: 10px auto;
-    background-color: aliceblue;
+    background-color: var(--colors-news-main);
     width: 90%;
     border: 20px;
 }
@@ -26,7 +25,7 @@
     position: relative;
     top: 0px;
     width: 100%;
-    background-color: rgb(198, 202, 128);
+    background-color: var(--colors-news-heading);
 }
 
 .news_dateText {

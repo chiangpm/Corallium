@@ -11,7 +11,7 @@
     position: relative;
     width: 100%;
     flex-wrap: wrap;
-    background-color: #ffffff;/* light-dark(#cee8fb, #505050); */
+    background-color: var(--colors-memberlist-background);
     margin: auto;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     width: 240px;
     height: 380px;
     margin: 10px;
-    background-color: light-dark(#cee8fb, #606060);
+    background-color: var(--colors-memberlist-box);
 }
 
 .departmentTitles {

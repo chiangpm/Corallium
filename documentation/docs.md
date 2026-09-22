@@ -12,7 +12,7 @@ In `docs` there are 3 main files/folders.
 
 - `scripts` folder: stores all scripts.
 
-- `stylesheets` folder: stores all stylesheets. Inside, `mainStyle.css` is for style data of the main website frame (top bar, navigation buttons, background etc.; the stuff that stays the same between each page on the website.) Text formatting data are also in `mainStyle.css`. There is one stylesheet for every webpage, and classes/ids used for every HTML object are named with convention [page name]\_[specific name of object], so for example, a "heading1" class for "home" page specifically would be called `home_heading1`. Also, in `mainStyle.css`, the format "nav\_[specific name]" is for navigation buttons. This keeps all style references organised.
+- `stylesheets` folder: stores all stylesheets. Inside, `mainStyle.css` is for style data of the main website frame (top bar, navigation buttons, background etc.; the stuff that stays the same between each page on the website.) Text formatting data are also in `mainStyle.css`. All main colors are stored using css variables in `colors.css`, so that they are easy to change. There is one stylesheet for every webpage, and classes/ids used for every HTML object are named with convention [page name]\_[specific name of object], so for example, a "heading1" class for "home" page specifically would be called `home_heading1`. Also, in `mainStyle.css`, the format "nav\_[specific name]" is for navigation buttons. This keeps all style references organised.
 
 When changing names of files, remember to update references in `index.html`!
 
@@ -43,6 +43,8 @@ nav_members: [
     "成员"
 ],
 ```
+
+For fish facts texts, it is the same system but in `fishFacts.js`. Do not add text snippets of fish facts into `languages.js`.
 
 ### 2. membersData.js
 

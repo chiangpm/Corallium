@@ -42,7 +42,7 @@ textContents = {
     ],
 
     mission_mainContent1Text: [
-        "To promote the conservation and protection of Coral species in Hong Kong through coral cultivation and supporting legal channels of coral distribution",
+        "To promote the conservation and protection of Coral species in Hong Kong through coral cultivation and supporting legal channels of coral distribution.",
         "?",
         "?"
     ],
@@ -60,7 +60,7 @@ textContents = {
     ],
 
     mission_mainContent2Text1: [
-        "In CCDD, we have fishies wowowowow",
+        "In CCDD, our duties for running the fish tank include monitoring and controlling water conditions, like pH, temperature, nitrate, and salinity levels. We also feed our fish twice every day, do periodic water changes, and do cyanobacteria removal. In order to maintain the delicate saltwater ecosystem so that the coral can thrive, a dedicated group of members keep the fish tank's water quality in check to match natural seawater.",
         "?",
         "?"
     ],
@@ -83,7 +83,11 @@ textContents = {
         "??"
     ],
 
-    mission_mainContent2Text3: placeholderText,
+    mission_mainContent2Text3: [
+        "We collaborated with HKU students to help research seagrass growth in Hong Kong by planting and monitoring seagrass growth near Tai Tam Tuk resevoir. This research aims to increase the understanding of optimal growth conditions for seagrass, so that better systems can be set up to help preserve Hong Kong's unique ecosystem.",
+        "",
+        ""
+    ],
     
     home_mainContent1Heading: [
         "What is our goal?",
@@ -91,12 +95,12 @@ textContents = {
         "我们的目标"
     ],
     home_mainContent1Text1: [
-        "We work with both local and international communities to actively advocate for coral conservation. We aim to distribute artificially grown coral to help offset threats to coral like wildlife harvesting and illegal trade.",
+        "First started in 2022, we are a student-led club focused on working with both local and international communities to actively advocate for coral conservation. We aim to distribute artificially grown coral to help offset threats to coral like wildlife harvesting and illegal trade.",
         "?",
         "?"
     ],
     home_mainContent1Text2: [
-        "Since 2019, our CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, tetra, abalones, sea snails, and algae.",
+        "Since 2019 (under Fish Tank club), the CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, tetra, abalones, sea snails, and algae.",
         "?",
         "?"
     ],
@@ -105,20 +109,24 @@ textContents = {
         "我們的工作",
         "我们的工作",
     ],
-    home_mainContent2Text1: placeholderText,
+    home_mainContent2Text1: [
+        "In addition to running the fish and coral tanks on 5th and 7th floor, we also organise and operate events in and out of school. On major school events like open day, we run stalls during open day to raise awareness of environmental threats on marine life. We also organised events for groups of students to go to Ocean Park marine ecology education programs.",
+        "",
+        ""
+    ],
+
     home_mainContent2Text2: [
-        "We split this project into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. This division of labor allows each member to develop a focused skillset in a practical manner to the best of everyone's abilities. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
+        "Because of the large number of members, our club is split into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. This division of labor allows each member to develop a focused skillset in a practical manner to the best of everyone's abilities. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
         "??",
         ""
     ],
-    home_mainContent3Text1: placeholderText,
-    home_mainContent3Text2: placeholderText,
 
-    members_photoSubheading: [
-        "Corallium Leadership Team",
-        "Corallium 領導團隊",
-        "Corallium 领导团队"
+    home_fishFactsHeading: [
+        "Fish Facts",
+        "??",
+        "??"
     ],
+
     members_lead1: [
         "Leader",
         "領導",
@@ -223,6 +231,7 @@ function configclick_lang() {
     const langButton = document.getElementById("config_lang");
     languageMode = (languageMode + 1) % 3;
 
+    //normal text
     for (const [key, value] of Object.entries(textContents)) {
         const textBox = document.getElementById(key);
         textBox.innerText = value[languageMode];
@@ -265,6 +274,9 @@ function configclick_lang() {
         newsFrameHtml += "</p></div>";
     }
     newsFrame.innerHTML = newsFrameHtml;
+
+    //update fish facts, language is automatic when updated
+    homeclick_fishFactsScroll(0);
 
     // const textObj = document.getElementById("news_temporaryNewsText");
     // if (languageMode == LANG_EN) {
