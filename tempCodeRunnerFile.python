@@ -1,0 +1,51 @@
+import pyautogui
+import time
+import os
+import random
+
+# Define as a normal integer. 
+# The formatting below handles the leading zeros.
+currentnum = 44
+
+def wandt():
+    # This prints 4 digits with leading zeros (e.g., 0001)
+    pyautogui.write(f"{currentnum:05d}")
+    pyautogui.press('tab')
+
+def pwandt():
+    # This prints 6 digits with leading zeros (e.g., 000001)
+    pyautogui.write(f"{currentnum:07d}")
+    pyautogui.press('tab')
+
+def main():
+    wandt()
+    wandt()
+    pwandt()
+    pwandt()
+    pyautogui.press('enter')
+    pyautogui.click(759,701)
+    pyautogui.click(759,701)
+    time.sleep(1.5)
+    pyautogui.click(754,610)
+    pyautogui.click(754,610)
+    logout()
+
+def logout():
+    global currentnum # Required to modify the variable outside this function
+    time.sleep(1)
+    pyautogui.click(1304,117)
+    time.sleep(1)
+    pyautogui.click(1243,243)
+    time.sleep(1)
+    pyautogui.click(1304,117)
+    time.sleep(1)
+    pyautogui.click(771,529)
+    time.sleep(1)
+    
+    currentnum += 1
+    # This prints the number with leading zeros in the console too
+    print(f"Account number {currentnum:05d} has been logged in.")
+    main()
+
+time.sleep(5)
+main()
