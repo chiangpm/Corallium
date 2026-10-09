@@ -10,4 +10,6 @@
     --colors-memberlist-box: light-dark(#b7cdd7, #323232);
     --colors-news-main: light-dark(#f0f8ff, #323232);
     --colors-news-heading: light-dark(#c6ca80, #494949);
+    --colors-recruitment-subpage-background: light-dark(#ffffff, #2a2e37);
+    --colors-recruitment-subpage-buttons-frame: light-dark(#c3c3c3, #383838);
 }

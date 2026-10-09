@@ -99,6 +99,11 @@ textContents = {
         "?",
         "?"
     ],
+    home_mainContent1SecondHeading: [
+        "Our background",
+        "?",
+        "?"
+    ],
     home_mainContent1Text2: [
         "Since 2019 (under Fish Tank club), the CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, tetra, abalones, sea snails, and algae.",
         "?",
@@ -115,8 +120,14 @@ textContents = {
         ""
     ],
 
+    home_mainContent2SecondHeading: [
+        "Organisational structure",
+        "",
+        ""
+    ],
+
     home_mainContent2Text2: [
-        "Because of the large number of members, our club is split into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. This division of labor allows each member to develop a focused skillset in a practical manner to the best of everyone's abilities. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
+        "Our club is split into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
         "??",
         ""
     ],
@@ -198,25 +209,71 @@ textContents = {
         "网络与技术部"
     ],
 
-    recruitment_heading1: [
-        "Why should you join us?",
-        "為何加入我們",
-        "为何加入我们"
+    recruitment_subpageButtonWhy: [
+        "Why join us?",
+        "為何加入我們？",
+        "为何加入我们？"
     ],
-    recruitment_text1: [
-        "CAS !!! WOW",
+    recruitment_casTitle: [
+        "CAS Opportunities (IB Diploma)",
         "??",
         "??"
     ],
-    recruitment_heading2: [
+    recruitment_casTextIntro: [
+        "Corallium is a student-led club which satisfies the requirements for all 3 branches of CAS, and can be a very strong CAS project!",
+        "??",
+        "??"
+    ],
+    recruitment_casC: [
+        "Creativity: Art and design are skills we consistently apply for marketing promotional events.",
+        "??",
+        "??"
+    ],
+    recruitment_casA: [
+        "Activity: We organise many trips and events for students to learn about ecology around Hong Kong, outside the school campus.",
+        "??",
+        "??"
+    ],
+    recruitment_casS: [
+        "Service: We directly raise awareness of the global issue of climate change and marine pollution.",
+        "??",
+        "??"
+    ],
+
+    recruitment_subpageButtonSignup: [
         "Apply Now",
         "申請渠道",
         "申请渠道"
     ],
-    recruitment_text2: [
-        "Uhh idk someone add a qr code here",
-        "??",
-        "??"
+
+    recruitment_signupFormLink: [
+        "Link to signup form\n(Click me!)",
+        "?",
+        "?"
+    ],
+
+    recruitment_signupEmailText: [
+        "If you have any questions about signing up, please contact Kaden Ling (Head of Corallium) via email below. Alternatively, please contact Natalie Wong or Kerry Ren:",
+        "?",
+        "?"
+    ],
+
+    recruitment_heading2:[
+        "We need your help!",
+        "?",
+        "?"
+    ],
+
+    recruitment_heading2:[
+        "We need your help!",
+        "?",
+        "?"
+    ],
+
+    recruitment_weNeedYouText: [
+        "Corallium is currently recruiting all Y10 and above students to join our team. Corallium is a fully student-operated non-profit initiative, meaning that every member has a say in the project. Our aim is to set up coral growth tanks in YCISHK to spread awareness, as well as to educate people on the practical aspects of Marine Science. For our coral to meet the oceans of Hong Kong, we need your help.",
+        "?",
+        "?"
     ],
 
     news_title: [

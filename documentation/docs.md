@@ -48,7 +48,7 @@ For fish facts texts, it is the same system but in `fishFacts.js`. Do not add te
 
 ### 2. membersData.js
 
-This is for the data of members of each department. The div that holds the department boxes is a flexbox div with id `departments_frame`. In `index.html`, this div is empty because the department data is algorithmically generated. Otherwise it would be a nightmare to update. The code for generating those objects is in `navigation.js`.
+This is for the data of members of each department. The div that holds the department boxes is a flexbox div with id `departments_frame`. In `index.html`, this div is empty because the department data is algorithmically generated. Otherwise it would be a nightmare to update. The code for generating those objects is at the end of the file, to build boxes that hold the names of each member of each department.
 
 `membersData.js` is just a dictionary that holds the id to be assigned to each department box, and a list of the members. The format for an entry is:
 
@@ -83,8 +83,6 @@ And shown by:
 The top bar showing/hiding system works by vertically shifting the main div which holds all objects underneath the top bar. And showing/hiding the top bar's objects using a similar method.
 
 Top bar's background color gets set to `transparent` when top bar is hidden, and set to the placeholder color scheme color. So when choosing website color scheme, make sure to also update the color data in the code of `navigation.js`.
-
-This script also references `membersData.js` to build boxes that hold the names of each member of each department.
 
 ### 4. newsData.js
 

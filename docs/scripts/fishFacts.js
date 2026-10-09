@@ -39,12 +39,17 @@ function homeclick_fishFactsScroll(pages) {
 
 const fishFactsText = [
     {
-        english: "Starfish do not have blood, a heart, gills, nor a brain. Instead, starfish respire by taking in oxygen from seawater through their topside and tube feet, where oxygen diffuses from seawater into their internal fluids and carbon dioxide diffuses out. They also have a water vascular system that carries seawater through canals to the tube feet, but that system is mainly for movement and feeding, not respiration.",
+        english: "Starfish do not have blood, a heart, gills, nor a brain. Instead, they respire by taking in oxygen from seawater through their topside and tube feet, where oxygen directly diffuses from seawater into their internal fluids and carbon dioxide diffuses out.",
         tradChinese: "??",
         simpChinese: "??"
     },
     {
-        english: "Cyanobacteria (the red slime in our CCDD fish tank) are the oldest known organisms to produce oxygen. They photosynthesise underwater, converting carbon dioxide into oxygen. Some species can also do biological nitrogen fixation, called diazotrophy, where atmospheric nitrogen that dissolved into the water becomes biologically useful chemical compounds like ammonium.",
+        english: "Cyanobacteria (the red slime in our CCDD fish tank) are the oldest known organisms to produce oxygen. They photosynthesise underwater, converting carbon dioxide into oxygen. Some species can also convert dissolved nitrogen into ammonia, via diazotrophy.",
+        tradChinese: "??",
+        simpChinese: "??"
+    },
+    {
+        english: "Sea anemone are a common pest found in our CCDD fish tank, which sting our coral. However, plucking them off coral and rocks only spawns more of them, since their flesh fragments can fully regrow into more anemone (this is called pedal laceration).",
         tradChinese: "??",
         simpChinese: "??"
     }

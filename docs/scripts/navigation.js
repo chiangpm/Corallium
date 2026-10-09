@@ -26,29 +26,16 @@ const setActiveNavButton = function(activeButton) {
 
 // const lightmodeButton = document.getElementById("lightmodebutton")
 
-//load the members groups and members names
-document.addEventListener("DOMContentLoaded", function() {
-    const getMembersFormattedHTML = function() {
-        let htmlContent = "";
-        for (let departmentID = 0; departmentID < membersData.length; departmentID++) {
-            htmlContent += "<div class=\"departmentmemberslist\">";
-            // htmlContent += "<h2 id=\"" + membersData[departmentID].id + "\">" + String(membersData[departmentID].departmentName) + "</h2>";
-            htmlContent += "<h2 class=\"departmentTitles\" id=\"" + membersData[departmentID].id + "\"></h2>";
-            for (let memberID = 0; memberID < (membersData[departmentID].departmentMembers).length; memberID++) {
-                htmlContent += "<p class=\"departmentText\">" + String(membersData[departmentID].departmentMembers[memberID]) + "</p>";
-            }
-            htmlContent += "</div>";
-        }
-        // console.log(htmlContent)
-        return htmlContent;
-    }
-
-    document.getElementById("departments_frame").innerHTML = getMembersFormattedHTML();
-});
+//checks if device is phone; if is phone, ignore hover css effects.
+function isMobileDevice() {
+  return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+}
 
 const navButtons = document.querySelectorAll(".navButton");
 
 navButtons.forEach((button) => {
+    if (isMobileDevice()) return; //<- if phone then ignore hover effect !!!
+
     button.addEventListener("mouseenter", () => {
         button.style.backgroundColor = "var(--colors-navbar-buttons-selected)";
 

@@ -42,21 +42,35 @@
         </div>
         <!-- <img src="homePage/homeBackground.jpg" id="home_coralTransition"> -->
         <div id="home_mainContentBackgroundFrame">
-            <h1 id="home_mainContent1Heading" class="title_text_1 default_margins"></h1>
-            <div id="home_mainContent1" class="default_margins">
-                <img id="home_mainContent1Image" src="media/homePage/Old_picture_clownfish.jpg">
-                <p class="default_text" id="home_mainContent1Text1"></p>
-                <p class="default_text" id="home_mainContent1Text2"></p>
-            </div>
-            <h1 id="home_mainContent2Heading" class="title_text_1"></h1>
-            <div id="home_mainContent2" class="default_margins">
-                <div id="home_mainContent2ImagesFrame">
-                    <img id="home_mainContent2TopImage" src="media/homePage/Fish_tank.jpeg">
-                    <img id="home_mainContent2BottomImage" src="media/homePage/Old_picture_urchin.jpg">
+            <div class="default_margins home_mainContentFrameL">
+                <div>
+                    <h1 id="home_mainContent1Heading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="big_text" id="home_mainContent1Text1"></p>
                 </div>
-                <p class="default_text" id="home_mainContent2Text1"></p>
-                <p class="default_text" id="home_mainContent2Text2"></p>
+                <img class="home_mainContentImage" src="media/homePage/awesome_coral.jpeg">
             </div>
+            <div class="default_margins home_mainContentFrameR">
+                <img class="home_mainContentImage" src="media/homePage/Old_picture_clownfish.jpg">
+                <div>
+                    <h1 id="home_mainContent1SecondHeading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="big_text" id="home_mainContent1Text2"></p>
+                </div>
+            </div>
+            <div class="default_margins home_mainContentFrameL">
+                <div>
+                    <h1 id="home_mainContent2Heading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="big_text" id="home_mainContent2Text1"></p>
+                </div>
+                <img class="home_mainContentImage" src="media/homePage/Fish_tank.jpeg">
+            </div>
+            <div class="default_margins home_mainContentFrameR">
+                <img class="home_mainContentImage" src="media/homePage/Group_tank.jpeg">
+                <div>
+                    <h1 id="home_mainContent2SecondHeading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="big_text" id="home_mainContent2Text2"></p>
+                </div>
+            </div>
+
             <div id="home_imagesRow">
                 <img src="media/homePage/Coral_tree.jpg" class="home_imagesRowImage">
                 <img src="media/homePage/Coral_bubble.jpg" class="home_imagesRowImage">
@@ -66,7 +80,7 @@
                 <h1 id="home_fishFactsHeading" class="title_text_1"></h1>
                 <div id="home_fishFactsFrame">
                     <button id="home_fishFactsLeftButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(-1)">&lt;</button>
-                    <p class="default_text" id="home_fishFactsText"></p>
+                    <p class="big_text" id="home_fishFactsText"></p>
                     <button id="home_fishFactsRightButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(1)">&gt;</button>
                 </div>
             </div>
@@ -130,13 +144,36 @@
         <div id="recruitment_topPhotoFrame">
             <img src="media/recruitmentPage/Tank_training.jpeg" class="recruitment_topPhoto">
             <img src="media/recruitmentPage/Cleaning_barrel_2.jpeg" class="recruitment_topPhoto">
-            <img src="media/recruitmentPage/Group_tank.jpeg" class="recruitment_topPhoto">
+            <img src="media/recruitmentPage/Filter_training.jpeg" class="recruitment_topPhoto">
         </div>
         <div id="recruitment_mainContent1">
             <h1 id="recruitment_heading1" class="recruitment_text title_text_1"></h1>
-            <p id="recruitment_text1" class="default_text"></p>
-            <h1 id="recruitment_heading2" class="recruitment_text title_text_1"></h1>
-            <p id="recruitment_text2" class="default_text"></p>
+            <div id="recruitment_subpageButtonsFrame">
+                <button id="recruitment_subpageButtonWhy" class="recruitment_subpageButton title_text_2" onclick="recruitmentclick_subpageWhy()"></button>
+                <button id="recruitment_subpageButtonSignup" class="recruitment_subpageButton title_text_2" onclick="recruitmentclick_subpageSignup()"></button>
+            </div>
+            <div id="recruitment_subpageContentFrame">
+                <div id="recruitment_subpageWhy">
+                    <h2 id="recruitment_casTitle" class="title_text_2"></h2>
+                    <p id="recruitment_casTextIntro" class="default_text"></p>
+                    <ul>
+                        <li id="recruitment_casC" class="default_text recruitment_casListItem"></li>
+                        <li id="recruitment_casA" class="default_text recruitment_casListItem"></li>
+                        <li id="recruitment_casS" class="default_text recruitment_casListItem"></li>
+                    </ul>
+                </div>
+                <div id="recruitment_subpageSignup">
+                    <a href="https://www.youtube.com/@Kyxoto-t1i" id="recruitment_signupFormLink"></a>
+                    <p id="recruitment_signupEmailText" class="default_text"></p>
+                    <a href="mailto:130179888@hkstudent.ycis.com" class="recruitment_signupEmailLink">130179888@hkstudent.ycis.com (Kaden)</a>
+                    <a href="mailto:200139435@hkstudent.ycis.com" class="recruitment_signupEmailLink">200139435@hkstudent.ycis.com (Natalie)</a>
+                    <a href="mailto:130567635@hkstudent.ycis.com" class="recruitment_signupEmailLink">130567635@hkstudent.ycis.com (Kerry)</a>
+                </div>
+            </div>
+        </div>
+        <div id="recruitment_mainContent2" class="default_margins">
+            <h1 id="recruitment_heading2" class="title_text_1" style="text-align: center;"></h1>
+            <p id="recruitment_weNeedYouText" class="default_text"></p>
         </div>
     </div>
     
@@ -151,4 +188,5 @@
 <script src="scripts/languages.js" defer></script>
 <script src="scripts/navigation.js" defer></script>
 <script src="scripts/fishFacts.js" defer></script>
+<script src="scripts/recruitmentSubpages.js" defer></script>
 </body>
