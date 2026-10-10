@@ -33,8 +33,14 @@
     flex: 1;
     float: right;
     width: 100%;
-    aspect-ratio: if(media(width < 600px): 0.75; else: 1.33);
+    aspect-ratio: 1.33;
     object-fit: cover;
+}
+
+@media (max-width: 600px) { /*aspect ratio for phones*/
+  .home_mainContentImage {
+    aspect-ratio: 0.75;
+  }
 }
 
 .home_mainContentFrameL {
