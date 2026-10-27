@@ -6,6 +6,9 @@
     --colors-background: light-dark(#d3e4ed, #202020);
     --colors-text: light-dark(#000000, #ffffff);
     --colors-mission-statement: light-dark(#ffffff, #404040);
+    --colors-mission-box: light-dark(#ffffff, #404040);
+    --colors-mission-box-buttons: light-dark(#dddddd, #484c56);
+    --colors-mission-box-buttons-selected: light-dark(#808080, #505050);
     --colors-memberlist-background: light-dark(#ffffff, #121212);
     --colors-memberlist-box: light-dark(#b7cdd7, #323232);
     --colors-news-main: light-dark(#f0f8ff, #323232);

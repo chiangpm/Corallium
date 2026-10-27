@@ -2,22 +2,6 @@ const leftButton = document.getElementById("home_fishFactsLeftButton");
 const rightButton = document.getElementById("home_fishFactsRightButton");
 const textBox = document.getElementById("home_fishFactsText");
 
-leftButton.addEventListener("mouseenter", () => {
-    leftButton.style.backgroundColor = "var(--colors-navbar-buttons-selected)";
-});
-
-leftButton.addEventListener("mouseleave", () => {
-    leftButton.style.backgroundColor = "var(--colors-navbar-buttons)";
-});
-
-rightButton.addEventListener("mouseenter", () => {
-    rightButton.style.backgroundColor = "var(--colors-navbar-buttons-selected)";
-});
-
-rightButton.addEventListener("mouseleave", () => {
-    rightButton.style.backgroundColor = "var(--colors-navbar-buttons)";
-});
-
 let currentTextId = 0;
 function homeclick_fishFactsScroll(pages) {
     currentTextId += pages;
@@ -25,7 +9,7 @@ function homeclick_fishFactsScroll(pages) {
         currentTextId += fishFactsText.length;
     }
     currentTextId %= fishFactsText.length;
-    textToDisplay = fishFactsText[currentTextId];
+    const textToDisplay = fishFactsText[currentTextId];
 
     // languageMode is from languages.js
     if (languageMode == LANG_EN) {
@@ -57,4 +41,22 @@ const fishFactsText = [
 
 window.addEventListener("DOMContentLoaded", () => {
     homeclick_fishFactsScroll(Math.floor(Date.now()));
+
+    if (! isMobileDevice()) {
+        leftButton.addEventListener("mouseenter", () => {
+            leftButton.style.backgroundColor = "var(--colors-navbar-buttons-selected)";
+        });
+
+        leftButton.addEventListener("mouseleave", () => {
+            leftButton.style.backgroundColor = "var(--colors-navbar-buttons)";
+        });
+
+        rightButton.addEventListener("mouseenter", () => {
+            rightButton.style.backgroundColor = "var(--colors-navbar-buttons-selected)";
+        });
+
+        rightButton.addEventListener("mouseleave", () => {
+            rightButton.style.backgroundColor = "var(--colors-navbar-buttons)";
+        });
+    }
 });

@@ -53,41 +53,41 @@ textContents = {
         "我们的策略"
     ],
 
-    mission_subheading1: [
-        "Fish Tank",
-        "??",
-        "??"
-    ],
+    // mission_subheading1: [
+    //     "Fish Tank",
+    //     "??",
+    //     "??"
+    // ],
 
-    mission_mainContent2Text1: [
-        "In CCDD, our duties for running the fish tank include monitoring and controlling water conditions, like pH, temperature, nitrate, and salinity levels. We also feed our fish twice every day, do periodic water changes, and do cyanobacteria removal. In order to maintain the delicate saltwater ecosystem so that the coral can thrive, a dedicated group of members keep the fish tank's water quality in check to match natural seawater.",
-        "?",
-        "?"
-    ],
+    // mission_mainContent2Text1: [
+    //     "In CCDD, our duties for running the fish tank include monitoring and controlling water conditions, like pH, temperature, nitrate, and salinity levels. We also feed our fish twice every day, do periodic water changes, and do cyanobacteria removal. In order to maintain the delicate saltwater ecosystem so that the coral can thrive, a dedicated group of members keep the fish tank's water quality in check to match natural seawater.",
+    //     "?",
+    //     "?"
+    // ],
 
-    mission_subheading2: [
-        "Coral Tank",
-        "??",
-        "??"
-    ],
+    // mission_subheading2: [
+    //     "Coral Fragging",
+    //     "??",
+    //     "??"
+    // ],
 
-    mission_mainContent2Text2: [
-        "On the seventh floor, the coral tank is broken right now :(",
-        "?",
-        "?"
-    ],
+    // mission_mainContent2Text2: [
+    //     "To help coral grow, we frag large colonies by cutting coral at their skeletal branches, and replanting the branches, so that each branch can healthily grow as a new smaller colony. Fragging prevents overgrowth, allowing each colony to have more space and resources to grow larger. Fragging also accelerates repopulation by stimulating the coral's natural regeneration response.",
+    //     "?",
+    //     "?"
+    // ],
 
-    mission_subheading3: [
-        "Outside School Activities",
-        "??",
-        "??"
-    ],
+    // mission_subheading3: [
+    //     "Outside School Activities",
+    //     "??",
+    //     "??"
+    // ],
 
-    mission_mainContent2Text3: [
-        "We collaborated with HKU students to help research seagrass growth in Hong Kong by planting and monitoring seagrass growth near Tai Tam Tuk resevoir. This research aims to increase the understanding of optimal growth conditions for seagrass, so that better systems can be set up to help preserve Hong Kong's unique ecosystem.",
-        "",
-        ""
-    ],
+    // mission_mainContent2Text3: [
+    //     "We collaborated with HKU students to help research seagrass growth in Hong Kong by planting and monitoring seagrass growth near Tai Tam Tuk resevoir. This research aims to increase the understanding of optimal growth conditions for seagrass, so that better systems can be set up to help preserve Hong Kong's unique ecosystem.",
+    //     "",
+    //     ""
+    // ],
     
     home_mainContent1Heading: [
         "What is our goal?",
@@ -105,7 +105,7 @@ textContents = {
         "?"
     ],
     home_mainContent1Text2: [
-        "Since 2019 (under Fish Tank club), the CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, tetra, abalones, sea snails, and algae.",
+        "Since 2019 (under Fish Tank club), the CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, cardinalfish, abalones, sea snails, and shrimp.",
         "?",
         "?"
     ],
@@ -334,6 +334,7 @@ function configclick_lang() {
 
     //update fish facts, language is automatic when updated
     homeclick_fishFactsScroll(0);
+    missionclick_BoxScroll(0);
 
     // const textObj = document.getElementById("news_temporaryNewsText");
     // if (languageMode == LANG_EN) {
