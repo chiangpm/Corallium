@@ -10,6 +10,7 @@
 <link href="stylesheets/membersPageStyle.css" rel="stylesheet">
 <link href="stylesheets/recruitmentPageStyle.css" rel="stylesheet">
 <link href="stylesheets/newsPageStyle.css" rel="stylesheet">
+<link href="stylesheets/colors.css" rel="stylesheet">
 <title>Corallium YCIS</title>
 </head>
 <body>
@@ -36,65 +37,98 @@
 <div id="contents_frame">
     <div id="page_home" class="contentspage home">
         <div id="home_topBackgroundFrame">
-            <h1 style="font-size: 2vw;" class="default_text">YCIS-HK</h1>
+            <h1 style="font-size: 2vw; font-family: Verdana, Geneva, Tahoma, sans-serif; color:#ffffff; font-weight: normal;">YCIS-HK</h1>
             <img src="media/homePage/coralliumLogo.jpg" id="home_pageHeadingImg" alt="CORALLIUM">
         </div>
         <!-- <img src="homePage/homeBackground.jpg" id="home_coralTransition"> -->
         <div id="home_mainContentBackgroundFrame">
-            <div id="home_mainContent1" class="default_margins">
-                <img id="home_mainContent1Image" src="media/placeholdercontent/imgportrait.jpg">
-                <h1 id="home_mainContent1Heading" class="title_text_1"></h1>
-                <p class="default_text" id="home_mainContent1Text1"></p>
-                <p class="default_text" id="home_mainContent1Text2"></p>
-            </div>
-            <div id="home_mainContent2" class="default_margins">
-                <div id="home_mainContent2ImagesFrame">
-                    <img id="home_mainContent2TopImage" src="media/placeholdercontent/imglandscape.jpg">
-                    <img id="home_mainContent2BottomImage" src="media/placeholdercontent/imglandscape.jpg">
+            <div class="default_margins home_mainContentFrameL">
+                <div>
+                    <h1 id="home_mainContent1Heading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="default_text" id="home_mainContent1Text1"></p>
                 </div>
-                <h1 id="home_mainContent2Heading" class="title_text_1"></h1>
-                <p class="default_text" id="home_mainContent2Text1"></p>
-                <p class="default_text" id="home_mainContent2Text2"></p>
+                <img class="home_mainContentImage" src="media/homePage/awesome_coral.jpeg">
+            </div>
+            <div class="default_margins home_mainContentFrameR">
+                <img class="home_mainContentImage" src="media/homePage/Cropped_picture_clownfish.jpg">
+                <div>
+                    <h1 id="home_mainContent1SecondHeading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="default_text" id="home_mainContent1Text2"></p>
+                </div>
+            </div>
+            <div class="default_margins home_mainContentFrameL">
+                <div>
+                    <h1 id="home_mainContent2Heading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="default_text" id="home_mainContent2Text1"></p>
+                </div>
+                <img class="home_mainContentImage" src="media/homePage/Fish_tank.jpeg">
+            </div>
+            <div class="default_margins home_mainContentFrameR">
+                <img class="home_mainContentImage" src="media/homePage/Group_tank.jpeg">
+                <div>
+                    <h1 id="home_mainContent2SecondHeading" class="title_text_1" style="text-align: center;"></h1>
+                    <p class="default_text" id="home_mainContent2Text2"></p>
+                </div>
+            </div>
+
+            <div id="home_imagesRow">
+                <img src="media/homePage/Coral_tree.jpg" class="home_imagesRowImage">
+                <img src="media/homePage/Coral_bubble.jpg" class="home_imagesRowImage">
+                <img src="media/homePage/Coral_frogspawn.jpg" class="home_imagesRowImage">
             </div>
             <div id="home_mainContent3" class="default_margins">
-                <img id="home_mainContent3Image" src="media/placeholdercontent/imglandscape.jpg">
-                <div id="home_mainContent3TextFrame">
-                    <p class="home_mainContent3Text default_text" id="home_mainContent3Text1"></p>
-                    <p class="home_mainContent3Text default_text" id="home_mainContent3Text2"></p>
+                <h1 id="home_fishFactsHeading" class="title_text_1"></h1>
+                <div id="home_fishFactsFrame">
+                    <button id="home_fishFactsLeftButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(-1)">&lt;</button>
+                    <p class="default_text" id="home_fishFactsText"></p>
+                    <button id="home_fishFactsRightButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(1)">&gt;</button>
                 </div>
             </div>
         </div>
     </div>
 
     <div id="page_mission" class="contentspage nothome">
-        <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
-        <div id="mission_mainContent1" class="default_margins">
-            <img id="mission_mainContent1Image" src="media/placeholdercontent/imgportrait.jpg">
-            <p class="default_text" id="mission_mainContent1Text"></p>
+        <div id="mission_missionStatementContainer" class="default_margins">
+            <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
+            <p id="mission_mainContent1Text"></p>
         </div>
+        <!-- <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
+        <div id="mission_mainContent1" class="default_margins"> -->
+            <!-- <img id="mission_mainContent1Image" src="media/placeholdercontent/imgportrait.jpg"> -->
+            <!-- <p id="mission_mainContent1Text" class="default_margins"></p> -->
+        <!-- </div> -->
         <h1 id="mission_mainContent2Heading" class="mission_mainHeadings title_text_1"></h1>
+        <div id="mission_mainContent2Box">
+            <div id="mission_mainContent2ButtonsFrame">
+                <button id="mission_mainContent2ButtonL" onclick="missionclick_BoxScroll(-1)">&lt;</button>
+                <button id="mission_mainContent2ButtonR" onclick="missionclick_BoxScroll(1)">&gt;</button>
+            </div>
+            <h2 class="title_text_2" style="text-align: center;" id="mission_mainContent2Subheading"></h2>
+            <p class="default_text" id="mission_mainContent2MainText"></p>
+            <img id="mission_mainContent2Image">
+        </div>
+<!-- 
         <div id="mission_mainContent2" class="default_margins">
             <div>
                 <h2 id="mission_subheading1" class="mission_subheadings title_text_2"></h1>
-                <img id="mission_mainContent2Image1" src="media/placeholdercontent/imglandscape.jpg">
                 <p class="default_text" id="mission_mainContent2Text1"></p>
             </div>
+            <img class="mission_mainContent2Image" src="media/missionPage/Kaden_refractometer.jpeg">
             <div>
                 <h2 id="mission_subheading2" class="mission_subheadings title_text_2"></h1>
-                <img id="mission_mainContent2Image2" src="media/placeholdercontent/imglandscape.jpg">
                 <p class="default_text" id="mission_mainContent2Text2"></p>
             </div>
+            <img class="mission_mainContent2Image" src="media/missionPage/Coral_maintenance.jpeg">
             <div>
                 <h2 id="mission_subheading3" class="mission_subheadings title_text_2"></h1>
-                <img id="mission_mainContent2Image3" src="media/placeholdercontent/imglandscape.jpg">
                 <p class="default_text" id="mission_mainContent2Text3"></p>
             </div>
-        </div>
+            <img class="mission_mainContent2Image" src="media/missionPage/Seagrass_temp.jpeg">
+        </div> -->
     </div>
 
     <div id="page_members" class="contentspage nothome">
         <img id="membersimg" src="media/membersPage/leadership team.jpg" alt="Corallium leadership team members">
-        <p style="font-size: larger; margin-bottom: 20px;" id="members_photoSubheading">Corallium Leadership Team</p>
         <div style="font-size: large;">
             <h1 id="members_lead1" class="title_text_1"></h1>
             <p class="default_text">LING Kai Chun Kaden</p>
@@ -118,15 +152,38 @@
     </div>
     <div id="page_recruitment" class="contentspage nothome">
         <div id="recruitment_topPhotoFrame">
-            <img src="media/placeholdercontent/imgportrait.jpg" class="recruitment_topPhoto">
-            <img src="media/placeholdercontent/imgportrait.jpg" class="recruitment_topPhoto">
-            <img src="media/placeholdercontent/imgportrait.jpg" class="recruitment_topPhoto">
+            <img src="media/recruitmentPage/Tank_training.jpeg" class="recruitment_topPhoto">
+            <img src="media/recruitmentPage/Cleaning_barrel_2.jpeg" class="recruitment_topPhoto">
+            <img src="media/recruitmentPage/Filter_training.jpeg" class="recruitment_topPhoto">
         </div>
         <div id="recruitment_mainContent1">
             <h1 id="recruitment_heading1" class="recruitment_text title_text_1"></h1>
-            <p id="recruitment_text1" class="default_text"></p>
-            <h1 id="recruitment_heading2" class="recruitment_text title_text_1"></h1>
-            <p id="recruitment_text2" class="default_text"></p>
+            <div id="recruitment_subpageButtonsFrame">
+                <button id="recruitment_subpageButtonWhy" class="recruitment_subpageButton title_text_2" onclick="recruitmentclick_subpageWhy()"></button>
+                <button id="recruitment_subpageButtonSignup" class="recruitment_subpageButton title_text_2" onclick="recruitmentclick_subpageSignup()"></button>
+            </div>
+            <div id="recruitment_subpageContentFrame">
+                <div id="recruitment_subpageWhy">
+                    <h2 id="recruitment_casTitle" class="title_text_2"></h2>
+                    <p id="recruitment_casTextIntro" class="default_text"></p>
+                    <ul>
+                        <li id="recruitment_casC" class="default_text recruitment_casListItem"></li>
+                        <li id="recruitment_casA" class="default_text recruitment_casListItem"></li>
+                        <li id="recruitment_casS" class="default_text recruitment_casListItem"></li>
+                    </ul>
+                </div>
+                <div id="recruitment_subpageSignup">
+                    <a href="https://www.youtube.com/@Kyxoto-t1i" id="recruitment_signupFormLink"></a>
+                    <p id="recruitment_signupEmailText" class="default_text"></p>
+                    <a href="mailto:130179888@hkstudent.ycis.com" class="recruitment_signupEmailLink">130179888@hkstudent.ycis.com (Kaden)</a>
+                    <a href="mailto:200139435@hkstudent.ycis.com" class="recruitment_signupEmailLink">200139435@hkstudent.ycis.com (Natalie)</a>
+                    <a href="mailto:130567635@hkstudent.ycis.com" class="recruitment_signupEmailLink">130567635@hkstudent.ycis.com (Kerry)</a>
+                </div>
+            </div>
+        </div>
+        <div id="recruitment_mainContent2" class="default_margins">
+            <h1 id="recruitment_heading2" class="title_text_1" style="text-align: center;"></h1>
+            <p id="recruitment_weNeedYouText" class="default_text"></p>
         </div>
     </div>
     
@@ -140,4 +197,7 @@
 <script src="scripts/newsData.js" defer></script>
 <script src="scripts/languages.js" defer></script>
 <script src="scripts/navigation.js" defer></script>
+<script src="scripts/fishFacts.js" defer></script>
+<script src="scripts/recruitmentSubpages.js" defer></script>
+<script src="scripts/missionBox.js" defer></script>
 </body>

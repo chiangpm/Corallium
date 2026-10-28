@@ -41,7 +41,11 @@ textContents = {
         "使命宣言"
     ],
 
-    mission_mainContent1Text: placeholderText,
+    mission_mainContent1Text: [
+        "To promote the conservation and protection of Coral species in Hong Kong through coral cultivation and supporting legal channels of coral distribution.",
+        "?",
+        "?"
+    ],
 
     mission_mainContent2Heading: [
         "Our approaches",
@@ -49,52 +53,91 @@ textContents = {
         "我们的策略"
     ],
 
-    mission_subheading1: [
-        "Work A",
-        "??",
-        "??"
-    ],
+    // mission_subheading1: [
+    //     "Fish Tank",
+    //     "??",
+    //     "??"
+    // ],
 
-    mission_mainContent2Text1: placeholderText,
+    // mission_mainContent2Text1: [
+    //     "In CCDD, our duties for running the fish tank include monitoring and controlling water conditions, like pH, temperature, nitrate, and salinity levels. We also feed our fish twice every day, do periodic water changes, and do cyanobacteria removal. In order to maintain the delicate saltwater ecosystem so that the coral can thrive, a dedicated group of members keep the fish tank's water quality in check to match natural seawater.",
+    //     "?",
+    //     "?"
+    // ],
 
-    mission_subheading2: [
-        "Work B",
-        "??",
-        "??"
-    ],
+    // mission_subheading2: [
+    //     "Coral Fragging",
+    //     "??",
+    //     "??"
+    // ],
 
-    mission_mainContent2Text2: placeholderText,
+    // mission_mainContent2Text2: [
+    //     "To help coral grow, we frag large colonies by cutting coral at their skeletal branches, and replanting the branches, so that each branch can healthily grow as a new smaller colony. Fragging prevents overgrowth, allowing each colony to have more space and resources to grow larger. Fragging also accelerates repopulation by stimulating the coral's natural regeneration response.",
+    //     "?",
+    //     "?"
+    // ],
 
-    mission_subheading3: [
-        "Work C",
-        "??",
-        "??"
-    ],
+    // mission_subheading3: [
+    //     "Outside School Activities",
+    //     "??",
+    //     "??"
+    // ],
 
-    mission_mainContent2Text3: placeholderText,
+    // mission_mainContent2Text3: [
+    //     "We collaborated with HKU students to help research seagrass growth in Hong Kong by planting and monitoring seagrass growth near Tai Tam Tuk resevoir. This research aims to increase the understanding of optimal growth conditions for seagrass, so that better systems can be set up to help preserve Hong Kong's unique ecosystem.",
+    //     "",
+    //     ""
+    // ],
     
     home_mainContent1Heading: [
         "What is our goal?",
         "我們的目標",
         "我们的目标"
     ],
-    home_mainContent1Text1: placeholderText,
-    home_mainContent1Text2: placeholderText,
+    home_mainContent1Text1: [
+        "First started in 2022, we are a student-led club focused on working with both local and international communities to actively advocate for coral conservation. We aim to distribute artificially grown coral to help offset threats to coral like wildlife harvesting and illegal trade.",
+        "?",
+        "?"
+    ],
+    home_mainContent1SecondHeading: [
+        "Our background",
+        "?",
+        "?"
+    ],
+    home_mainContent1Text2: [
+        "Since 2019 (under Fish Tank club), the CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, cardinalfish, abalones, sea snails, and shrimp.",
+        "?",
+        "?"
+    ],
     home_mainContent2Heading: [
         "What do we do?",
         "我們的工作",
         "我们的工作",
     ],
-    home_mainContent2Text1: placeholderText,
-    home_mainContent2Text2: placeholderText,
-    home_mainContent3Text1: placeholderText,
-    home_mainContent3Text2: placeholderText,
-
-    members_photoSubheading: [
-        "Corallium Leadership Team",
-        "Corallium 領導團隊",
-        "Corallium 领导团队"
+    home_mainContent2Text1: [
+        "In addition to running the fish and coral tanks on 5th and 7th floor, we also organise and operate events in and out of school. On major school events like open day, we run stalls during open day to raise awareness of environmental threats on marine life. We also organised events for groups of students to go to Ocean Park marine ecology education programs.",
+        "",
+        ""
     ],
+
+    home_mainContent2SecondHeading: [
+        "Organisational structure",
+        "",
+        ""
+    ],
+
+    home_mainContent2Text2: [
+        "Our club is split into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
+        "??",
+        ""
+    ],
+
+    home_fishFactsHeading: [
+        "Fish Facts",
+        "??",
+        "??"
+    ],
+
     members_lead1: [
         "Leader",
         "領導",
@@ -166,25 +209,71 @@ textContents = {
         "网络与技术部"
     ],
 
-    recruitment_heading1: [
-        "Why should you join us?",
-        "為何加入我們",
-        "为何加入我们"
+    recruitment_subpageButtonWhy: [
+        "Why join us?",
+        "為何加入我們？",
+        "为何加入我们？"
     ],
-    recruitment_text1: [
-        "CAS !!! WOW",
+    recruitment_casTitle: [
+        "CAS Opportunities (IB Diploma)",
         "??",
         "??"
     ],
-    recruitment_heading2: [
+    recruitment_casTextIntro: [
+        "Corallium is a student-led club which satisfies the requirements for all 3 branches of CAS, and can be a very strong CAS project!",
+        "??",
+        "??"
+    ],
+    recruitment_casC: [
+        "Creativity: Art and design are skills we consistently apply for marketing promotional events.",
+        "??",
+        "??"
+    ],
+    recruitment_casA: [
+        "Activity: We organise many trips and events for students to learn about ecology around Hong Kong, outside the school campus.",
+        "??",
+        "??"
+    ],
+    recruitment_casS: [
+        "Service: We directly raise awareness of the global issue of climate change and marine pollution.",
+        "??",
+        "??"
+    ],
+
+    recruitment_subpageButtonSignup: [
         "Apply Now",
         "申請渠道",
         "申请渠道"
     ],
-    recruitment_text2: [
-        "Uhh idk someone add a qr code here",
-        "??",
-        "??"
+
+    recruitment_signupFormLink: [
+        "Link to signup form\n(Click me!)",
+        "?",
+        "?"
+    ],
+
+    recruitment_signupEmailText: [
+        "If you have any questions about signing up, please contact Kaden Ling (Head of Corallium) via email below. Alternatively, please contact Natalie Wong or Kerry Ren:",
+        "?",
+        "?"
+    ],
+
+    recruitment_heading2:[
+        "We need your help!",
+        "?",
+        "?"
+    ],
+
+    recruitment_heading2:[
+        "We need your help!",
+        "?",
+        "?"
+    ],
+
+    recruitment_weNeedYouText: [
+        "Corallium is currently recruiting all Y10 and above students to join our team. Corallium is a fully student-operated non-profit initiative, meaning that every member has a say in the project. Our aim is to set up coral growth tanks in YCISHK to spread awareness, as well as to educate people on the practical aspects of Marine Science. For our coral to meet the oceans of Hong Kong, we need your help.",
+        "?",
+        "?"
     ],
 
     news_title: [
@@ -199,6 +288,7 @@ function configclick_lang() {
     const langButton = document.getElementById("config_lang");
     languageMode = (languageMode + 1) % 3;
 
+    //normal text
     for (const [key, value] of Object.entries(textContents)) {
         const textBox = document.getElementById(key);
         textBox.innerText = value[languageMode];
@@ -242,6 +332,10 @@ function configclick_lang() {
     }
     newsFrame.innerHTML = newsFrameHtml;
 
+    //update fish facts, language is automatic when updated
+    homeclick_fishFactsScroll(0);
+    missionclick_BoxScroll(0);
+
     // const textObj = document.getElementById("news_temporaryNewsText");
     // if (languageMode == LANG_EN) {
     //     textObj.innerText = newsTextEnglish;
@@ -252,6 +346,6 @@ function configclick_lang() {
     // }
 }
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
     configclick_lang()
 });
