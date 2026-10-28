@@ -1,10 +1,16 @@
 :root {
     color-scheme: light dark;
     background-color: var(--colors-background);
-    
 }
-button, 
-input[type="button"], 
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+}
+
+button,
+input[type="button"],
 input[type="submit"], 
 input[type="reset"] {
   cursor: pointer;
