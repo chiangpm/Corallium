@@ -15,7 +15,7 @@
 
 const newsText = [
     {
-        date: "22 Sep 2026",
+        date: "Sep 22 2026",
         title: {
             english: "Open day",
             tradChinese: "開放日",

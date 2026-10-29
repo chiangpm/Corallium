@@ -1,7 +1,7 @@
 const membersData = [
     {
         id: "members_dep1",
-        // departmentName: "Tank Maintenance Department",
+        image: "media/missionPage/Coral_maintenance.jpeg",
         departmentMembers: [
             "CHUI Wo Ronald",
             "LI Shing Hing Cathy",
@@ -14,7 +14,7 @@ const membersData = [
     },
     {
         id: "members_dep2",
-        // departmentName: "Public Relations Department",
+        image: "media/recruitmentPage/Tank_training.jpeg",
         departmentMembers: [
             "CHAK Tin Long Louis",
             "HUI Yik Ling Simona",
@@ -27,9 +27,8 @@ const membersData = [
     },
     {
         id: "members_dep3",
-        // departmentName: "Accounting and Finance Department",
+        image: "media/missionPage/Seagrass_temp.jpeg",
         departmentMembers: [
-            // "Accounting and Finance Team", // This is extra
             "FONG Wai Yan Jade",
             "FU Ho Ka Bobby",
             "OUYANG Yuesheng Kevin"
@@ -37,7 +36,7 @@ const membersData = [
     },
     {
         id: "members_dep4",
-        // departmentName: "Art and Design Department",
+        image: "media/homePage/awesome_coral.jpeg",
         departmentMembers: [
             "NGO Chin Wun Eunice",
             "CHAN Nok Yee Agnes",
@@ -51,7 +50,7 @@ const membersData = [
     },
     {
         id: "members_dep5",
-        // departmentName: "Web Development Department",
+        image: "media/homePage/coralliumLogo.jpg",
         departmentMembers: [
             "DENG Weilin William",
             "OUYANG Yuesheng Kevin"
@@ -64,15 +63,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const getMembersFormattedHTML = function() {
         let htmlContent = "";
         for (let departmentID = 0; departmentID < membersData.length; departmentID++) {
-            htmlContent += "<div class=\"departmentmemberslist\">";
-            // htmlContent += "<h2 id=\"" + membersData[departmentID].id + "\">" + String(membersData[departmentID].departmentName) + "</h2>";
+            htmlContent += "<div class=\"department-card\">";
+            htmlContent += "<img src=\"" + membersData[departmentID].image + "\" class=\"department-image\">";
             htmlContent += "<h2 class=\"departmentTitles\" id=\"" + membersData[departmentID].id + "\"></h2>";
+            htmlContent += "<div class=\"members-grid\">";
             for (let memberID = 0; memberID < (membersData[departmentID].departmentMembers).length; memberID++) {
                 htmlContent += "<p class=\"departmentText\">" + String(membersData[departmentID].departmentMembers[memberID]) + "</p>";
             }
             htmlContent += "</div>";
+            htmlContent += "</div>";
         }
-        // console.log(htmlContent)
         return htmlContent;
     }
 

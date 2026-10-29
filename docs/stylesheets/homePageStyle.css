@@ -29,63 +29,32 @@
 } */
  
 .home_mainContentImage {
-    position: absolute;
-    inset: 0;
+    position: relative;
+    flex: 1;
+    float: right;
     width: 100%;
-    height: 100%;
+    aspect-ratio: 1.33;
     object-fit: cover;
-    display: block;
-    /* border-radius: 2vw; */
 }
 
-.home_mainContentImageFrame {
-    position: relative;
-    width: 35%;
-    flex: 1 1 auto;
-    overflow: hidden;
-}
-
-.home_mainContentTextFrame {
-    position: relative;
-    width: 60%;
-    margin: 0px 2.5% 0px 2.5%;
-    flex: 0 0 auto;
-}
-
-@media (max-width: 600px) {
-    .home_mainContentFrameL {
-        flex-direction: column;
-    }
-
-    .home_mainContentFrameR {
-        flex-direction: column;
-    }
-
-    .home_mainContentTextFrame {
-        width: 100%;
-        margin: 0px;
-        order: 0;
-    }
-
-    .home_mainContentImageFrame {
-        width: 100%;
-        aspect-ratio: 1.5;
-        order: 1;
-    }
+@media (max-width: 600px) { /*aspect ratio for phones*/
+  .home_mainContentImage {
+    aspect-ratio: 0.75;
+  }
 }
 
 .home_mainContentFrameL {
-    display: flex;
-    /* grid-template-columns: 60% 35%;
-    column-gap: 5%; */
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    column-gap: 5%;
+    align-items: center;
 }
 
 .home_mainContentFrameR {
-    display: flex;
-    /* grid-template-columns: 35% 60%;
-    column-gap: 5%; */
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 35% 60%;
+    column-gap: 5%;
+    align-items: center;
 }
 
 #home_imagesRow {
@@ -103,6 +72,30 @@
     object-fit: cover;
     float: left;
 }
+
+/* #home_mainContent2TopImage {
+    position: relative;
+    width: 100%;
+    margin: 0vw 0vw 0vw 0vw;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+}
+
+#home_mainContent2BottomImage {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    margin: 2vw 0vw 0vw 0vw;
+} */
+
+/* #home_mainContent3Image {
+    position: relative;
+    float: top;
+    width: 100%;
+    height: 20vw;
+    vertical-align: auto;
+} */
 
 #home_fishFactsFrame {
     position: relative;
