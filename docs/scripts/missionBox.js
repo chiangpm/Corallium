@@ -44,7 +44,7 @@ const missionBoxText = [
         englishSubheading: "Coral Fragging",
         tradChineseSubheading: "? ?",
         simpChineseSubheading: "??",
-        img: "media/missionPage/Coral_maintenance.jpeg"
+        img: "media/missionPage/fragging.png"
     },
     {
         english: "We collaborated with HKU students to help research seagrass growth in Hong Kong by planting and monitoring seagrass growth near Tai Tam Tuk resevoir. This research aims to increase the understanding of optimal growth conditions for seagrass, so that better systems can be set up to help preserve Hong Kong's unique ecosystem.",

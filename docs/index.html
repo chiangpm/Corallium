@@ -43,29 +43,37 @@
         <!-- <img src="homePage/homeBackground.jpg" id="home_coralTransition"> -->
         <div id="home_mainContentBackgroundFrame">
             <div class="default_margins home_mainContentFrameL">
-                <div>
+                <div class="home_mainContentTextFrame">
                     <h1 id="home_mainContent1Heading" class="title_text_1" style="text-align: center;"></h1>
                     <p class="default_text" id="home_mainContent1Text1"></p>
                 </div>
-                <img class="home_mainContentImage" src="media/homePage/awesome_coral.jpeg">
+                <div class="home_mainContentImageFrame">
+                    <img class="home_mainContentImage" src="media/homePage/awesome_coral.jpeg">
+                </div>
             </div>
             <div class="default_margins home_mainContentFrameR">
-                <img class="home_mainContentImage" src="media/homePage/Cropped_picture_clownfish.jpg">
-                <div>
+                <div class="home_mainContentImageFrame">
+                    <img class="home_mainContentImage" src="media/homePage/Cropped_picture_clownfish.jpg">
+                </div>
+                <div class="home_mainContentTextFrame">
                     <h1 id="home_mainContent1SecondHeading" class="title_text_1" style="text-align: center;"></h1>
                     <p class="default_text" id="home_mainContent1Text2"></p>
                 </div>
             </div>
             <div class="default_margins home_mainContentFrameL">
-                <div>
+                <div class="home_mainContentTextFrame">
                     <h1 id="home_mainContent2Heading" class="title_text_1" style="text-align: center;"></h1>
                     <p class="default_text" id="home_mainContent2Text1"></p>
                 </div>
-                <img class="home_mainContentImage" src="media/homePage/Fish_tank.jpeg">
+                <div class="home_mainContentImageFrame">
+                    <img class="home_mainContentImage" src="media/homePage/Fish_tank.jpeg">
+                </div>
             </div>
             <div class="default_margins home_mainContentFrameR">
-                <img class="home_mainContentImage" src="media/homePage/Group_tank.jpeg">
-                <div>
+                <div class="home_mainContentImageFrame">
+                    <img class="home_mainContentImage" src="media/homePage/Group_tank.jpeg">
+                </div>
+                <div class="home_mainContentTextFrame">
                     <h1 id="home_mainContent2SecondHeading" class="title_text_1" style="text-align: center;"></h1>
                     <p class="default_text" id="home_mainContent2Text2"></p>
                 </div>
@@ -80,7 +88,10 @@
                 <h1 id="home_fishFactsHeading" class="title_text_1"></h1>
                 <div id="home_fishFactsFrame">
                     <button id="home_fishFactsLeftButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(-1)">&lt;</button>
-                    <p class="default_text" id="home_fishFactsText"></p>
+                    <div id="home_fishFactsCenterFrame">
+                        <p class="default_text" style="text-align: center;" id="home_fishFactsPageId"></p>
+                        <p class="default_text" id="home_fishFactsText"></p>
+                    </div>
                     <button id="home_fishFactsRightButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(1)">&gt;</button>
                 </div>
             </div>
@@ -92,11 +103,6 @@
             <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
             <p id="mission_mainContent1Text"></p>
         </div>
-        <!-- <h1 id="mission_mainContent1Heading" class="mission_mainHeadings title_text_1"></h1>
-        <div id="mission_mainContent1" class="default_margins"> -->
-            <!-- <img id="mission_mainContent1Image" src="media/placeholdercontent/imgportrait.jpg"> -->
-            <!-- <p id="mission_mainContent1Text" class="default_margins"></p> -->
-        <!-- </div> -->
         <h1 id="mission_mainContent2Heading" class="mission_mainHeadings title_text_1"></h1>
         <div id="mission_mainContent2Box">
             <div id="mission_mainContent2ButtonsFrame">
@@ -107,24 +113,6 @@
             <p class="default_text" id="mission_mainContent2MainText"></p>
             <img id="mission_mainContent2Image">
         </div>
-<!-- 
-        <div id="mission_mainContent2" class="default_margins">
-            <div>
-                <h2 id="mission_subheading1" class="mission_subheadings title_text_2"></h1>
-                <p class="default_text" id="mission_mainContent2Text1"></p>
-            </div>
-            <img class="mission_mainContent2Image" src="media/missionPage/Kaden_refractometer.jpeg">
-            <div>
-                <h2 id="mission_subheading2" class="mission_subheadings title_text_2"></h1>
-                <p class="default_text" id="mission_mainContent2Text2"></p>
-            </div>
-            <img class="mission_mainContent2Image" src="media/missionPage/Coral_maintenance.jpeg">
-            <div>
-                <h2 id="mission_subheading3" class="mission_subheadings title_text_2"></h1>
-                <p class="default_text" id="mission_mainContent2Text3"></p>
-            </div>
-            <img class="mission_mainContent2Image" src="media/missionPage/Seagrass_temp.jpeg">
-        </div> -->
     </div>
 
     <div id="page_members" class="contentspage nothome">
@@ -211,9 +199,9 @@
     </div>
     
     <div id="page_news" class="contentspage nothome">
-        <h1 class="title_text_1" id="news_title"></h1>
+        <h1 class="title_text_1" id="news_title" style="text-align: center;"></h1>
         <div id="news_contentFrame" class="default_margins"></div>
-        <p class="default_text" id="news_temporaryNewsText"></p>
+        <!-- <p class="default_text" id="news_temporaryNewsText"></p> -->
     </div>
 </div>
 <script src="scripts/membersData.js" defer></script>
@@ -223,4 +211,5 @@
 <script src="scripts/fishFacts.js" defer></script>
 <script src="scripts/recruitmentSubpages.js" defer></script>
 <script src="scripts/missionBox.js" defer></script>
+<script src="scripts/newsBoxesGeneration.js" defer></script>
 </body>

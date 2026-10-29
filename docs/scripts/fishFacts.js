@@ -1,6 +1,7 @@
 const leftButton = document.getElementById("home_fishFactsLeftButton");
 const rightButton = document.getElementById("home_fishFactsRightButton");
 const textBox = document.getElementById("home_fishFactsText");
+const pageIdDisplay = document.getElementById("home_fishFactsPageId");
 
 let currentTextId = 0;
 function homeclick_fishFactsScroll(pages) {
@@ -10,6 +11,7 @@ function homeclick_fishFactsScroll(pages) {
     }
     currentTextId %= fishFactsText.length;
     const textToDisplay = fishFactsText[currentTextId];
+    pageIdDisplay.innerText = "(" + String(currentTextId+1) + "/" + String(fishFactsText.length) + ")";
 
     // languageMode is from languages.js
     if (languageMode == LANG_EN) {
