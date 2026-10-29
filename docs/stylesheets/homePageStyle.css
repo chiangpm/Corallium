@@ -99,12 +99,15 @@
 
 #home_fishFactsFrame {
     position: relative;
-    margin: auto;
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 8% 74% 8%;
-    width: 90%;
+    width: 100%;
+}
+
+#home_fishFactsBottomDotsFrame {
+    background-color: red;
 }
 
 #home_fishFactsHeading {

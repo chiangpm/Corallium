@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="robots" content="noarchive">
 <meta name="color-scheme" content="light dark">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="stylesheets/mainStyle.css" rel="stylesheet">
 <link href="stylesheets/homePageStyle.css" rel="stylesheet">
 <link href="stylesheets/missionsPageStyle.css" rel="stylesheet">
@@ -80,9 +81,12 @@
                 <h1 id="home_fishFactsHeading" class="title_text_1"></h1>
                 <div id="home_fishFactsFrame">
                     <button id="home_fishFactsLeftButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(-1)">&lt;</button>
-                    <p class="default_text" id="home_fishFactsText"></p>
+                    <div id="home_fishFactsCenterFrame">
+                        <p class="default_text" style="text-align: center;" id="home_fishFactsPageId"></p>
+                    </div>
                     <button id="home_fishFactsRightButton" class="home_fishFactsScrollButton" onclick="homeclick_fishFactsScroll(1)">&gt;</button>
                 </div>
+                <p class="default_text" id="home_fishFactsText"></p>
             </div>
         </div>
     </div>
