@@ -124,3 +124,15 @@ So, an example is:
 ```
 
 No id needs to be assigned, and translations DO NOT need to be added into `textContents` in `languages.js`.
+
+### 5. newsBoxesGeneration.js
+
+Controls text and html generation for news articles. Called by languages.js.
+
+### 6. recruitmentSubpages.js
+
+Controls the interactive display in recruitment page.
+
+### 7. missionBox.js
+
+Controls the interactive display in missions page.
