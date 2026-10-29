@@ -43,8 +43,8 @@ textContents = {
 
     mission_mainContent1Text: [
         "To promote the conservation and protection of Coral species in Hong Kong through coral cultivation and supporting legal channels of coral distribution.",
-        "?",
-        "?"
+        "通過珊瑚培育及支持珊瑚分發的合法渠道，促進香港珊瑚物種的保育與保護。",
+        "通过珊瑚培育及支持珊瑚分发的合法渠道，促进香港珊瑚物种的保育与保护。"
     ],
 
     mission_mainContent2Heading: [
@@ -91,23 +91,23 @@ textContents = {
     
     home_mainContent1Heading: [
         "What is our goal?",
-        "我們的目標",
-        "我们的目标"
+        "我們的目標是什麼？",
+        "我们的目标是什么？"
     ],
     home_mainContent1Text1: [
         "First started in 2022, we are a student-led club focused on working with both local and international communities to actively advocate for coral conservation. We aim to distribute artificially grown coral to help offset threats to coral like wildlife harvesting and illegal trade.",
-        "?",
-        "?"
+        "作為一個成立於2022年學生領導的社團，我們致力於對本地和國際社區倡導保護珊瑚的行動。我們的目標是投放人工培育珊瑚，以幫助抵消採集與非法貿易等對珊瑚的威脅。",
+        "作为一个成立于2022年学生领导的社团，我们致力于对本地和国际社区倡导保护珊瑚的行动。我们的目标是投放人工培育珊瑚，以帮助抵消采集与非法贸易等对珊瑚的威胁。"
     ],
     home_mainContent1SecondHeading: [
         "Our background",
-        "?",
-        "?"
+        "背景介紹",
+        "背景介绍"
     ],
     home_mainContent1Text2: [
         "Since 2019 (under Fish Tank club), the CCDD fish tank has run nonstop to grow coral and sustain a miniature marine ecosystem, which also includes multiple species of starfish, sea urchins, clownfish, cardinalfish, abalones, sea snails, and shrimp.",
-        "?",
-        "?"
+        "自2019年以來（隸屬於Fish Tank俱樂部），CCDD魚缸一直不間斷運行，用於培育珊瑚並維持一個微型海洋生態系統；該生態系統還包括多種海星、海膽、小丑魚、天竺鯛、鮑魚、海螺和蝦。",
+        "自2019年以来（隶属于Fish Tank俱乐部），CCDD鱼缸一直不间断运行，用于培育珊瑚并维持一个微型海洋生态系统；该生态系统还包括多种海星、海胆、小丑鱼、天竺鲷、鲍鱼、海螺和虾。"
     ],
     home_mainContent2Heading: [
         "What do we do?",
@@ -115,27 +115,27 @@ textContents = {
         "我们的工作",
     ],
     home_mainContent2Text1: [
-        "In addition to running the fish and coral tanks on 5th and 7th floor, we also organise and operate events in and out of school. On major school events like open day, we run stalls during open day to raise awareness of environmental threats on marine life. We also organised events for groups of students to go to Ocean Park marine ecology education programs.",
-        "",
-        ""
+        "In addition to running the fish and coral tanks on 5th and 7th floor, we also organise and operate events in and out of school. On major school events like open day, we run stalls to raise awareness of environmental threats on marine life. We also organised events for groups of students to go to Ocean Park marine ecology education programs.",
+        "除了負責維護位5樓和7樓的魚缸及珊瑚缸外，我們還在校內外規劃並進行各類活動。學校重大活動（如開放日）期間，我們會設置展位，旨在提升大家對海洋生物所面臨環境威脅的認知。此外，我們曾組織學生前往海洋公園，參與當地的海洋生態教育計畫。",
+        "除了负责维护位5楼和7楼的鱼缸及珊瑚缸外，我们还在校内外规划并进行各类活动。学校重大活动（如开放日）期间，我们会设置展位，旨在提升大家对海洋生物所面临环境威胁的认知。此外，我们曾组织学生前往海洋公园，参与当地的海洋生态教育计划。"
     ],
 
     home_mainContent2SecondHeading: [
         "Organisational structure",
-        "",
-        ""
+        "組織結構",
+        "组织结构"
     ],
 
     home_mainContent2Text2: [
         "Our club is split into 5 divisions: tank management, public relations, accounting and finance, art and design, and web development. Because of the delicate nature of the corals, which require rigorous supervision, we need a large number of members for continuous monitoring so that the corals are always in healthy condition.",
-        "??",
-        ""
+        "我們社團分為五個部門：魚缸與珊瑚缸管理、公共關係（公關）、財務與會計、藝術設計、網站開發。由於珊瑚的屬性特殊，需要嚴謹的照料。因此我們需要大量成員進行持續監測，以確保珊瑚處於健康狀態。",
+        "我们社团分为五个部门：鱼缸与珊瑚缸管理、公共关系（公关）、财务与会计、艺术设计、网站开发。由于珊瑚的属性特殊，需要严谨的照料。因此我们需要大量成员进行持续监测，以确保珊瑚处于健康状态。"
     ],
 
     home_fishFactsHeading: [
         "Fish Facts",
-        "??",
-        "??"
+        "魚類知識",
+        "鱼类知识"
     ],
 
     members_lead1: [
@@ -216,28 +216,28 @@ textContents = {
     ],
     recruitment_casTitle: [
         "CAS Opportunities (IB Diploma)",
-        "??",
-        "??"
+        "CAS 機會（IB文憑）",
+        "CAS 机会（IB文凭）"
     ],
     recruitment_casTextIntro: [
         "Corallium is a student-led club which satisfies the requirements for all 3 branches of CAS, and can be a very strong CAS project!",
-        "??",
-        "??"
+        "Corallium 是一個由學生主導的社團，涵蓋了 CAS 三大板塊的所有要求，完全可以成爲一個非常出色的 CAS 項目！",
+        "Corallium 是一个由学生主导的社团，涵盖了 CAS 三大板块的所有要求，完全可以成为一个非常出色的 CAS 项目！"
     ],
     recruitment_casC: [
         "Creativity: Art and design are skills we consistently apply for marketing promotional events.",
-        "??",
-        "??"
+        "創造力（Creativity）：藝術與設計是我們持續運用於行銷推廣活動中的技能。",
+        "创造力（Creativity）：艺术与设计是我们持续运用于行销推广活动中的技能。"
     ],
     recruitment_casA: [
         "Activity: We organise many trips and events for students to learn about ecology around Hong Kong, outside the school campus.",
-        "??",
-        "??"
+        "活動（Activity）：我們舉辦各類考察與活動，讓學生走出校園了解香港的生態環境。",
+        "活动（Activity）：我们举办各类考察与活动，让学生走出校园了解香港的生态环境。"
     ],
     recruitment_casS: [
         "Service: We directly raise awareness of the global issue of climate change and marine pollution.",
-        "??",
-        "??"
+        "服務（Service）：提升人們對全球氣候變遷及海洋污染議題的認知。",
+        "服务（Service）：提升人们对全球气候变迁及海洋污染议题的认知。"
     ],
 
     recruitment_subpageButtonSignup: [
@@ -248,32 +248,26 @@ textContents = {
 
     recruitment_signupFormLink: [
         "Link to signup form\n(Click me!)",
-        "?",
-        "?"
+        "報名表鏈接\n（點我！）",
+        "报名表链接\n（点我！）"
     ],
 
     recruitment_signupEmailText: [
         "If you have any questions about signing up, please contact Kaden Ling (Head of Corallium) via email below. Alternatively, please contact Natalie Wong or Kerry Ren:",
-        "?",
+        "如果您對報名參與社團有任何疑問，請透過下方電子郵件聯絡 Kaden Ling（Corallium 負責人）。您也可以聯絡 Natalie Wong 或 Kerry Ren：",
         "?"
     ],
 
     recruitment_heading2:[
         "We need your help!",
-        "?",
-        "?"
-    ],
-
-    recruitment_heading2:[
-        "We need your help!",
-        "?",
-        "?"
+        "我們需要您的幫助！",
+        "我们需要您的帮助！"
     ],
 
     recruitment_weNeedYouText: [
-        "Corallium is currently recruiting all Y10 and above students to join our team. Corallium is a fully student-operated non-profit initiative, meaning that every member has a say in the project. Our aim is to set up coral growth tanks in YCISHK to spread awareness, as well as to educate people on the practical aspects of Marine Science. For our coral to meet the oceans of Hong Kong, we need your help.",
-        "?",
-        "?"
+        "Corallium is currently recruiting all Y10 and above students to join our team. Corallium is a fully student-operated non-profit initiative, meaning that every member has a say in the project. Our aim is to set up coral growth tanks in YCIS HK to spread awareness, as well as to educate people on the practical aspects of Marine Science. For our coral to meet the oceans of Hong Kong, we need your help.",
+        "Corallium 現在正在招募十年級（Y10）及以上的學生加入我們的團隊。 Corallium 是一個完全由學生經營的非營利項目，這意味著每位成員都能在專案中發表意見、參與決策。我們的目標是在香港耀中（YCIS HK）內設立珊瑚培育缸，旨在提升大家的環保意識，並普及海洋科學類知識。為了讓我們的珊瑚最終能回歸香港的海域，我們需要你的幫助。",
+        "Corallium 现在正在招募十年级（Y10）及以上的学生加入我们的团队。 Corallium 是一个完全由学生经营的非营利项目，这意味著每位成员都能在专案中发表意见、参与决策。我们的目标是在香港耀中（YCIS HK）内设立珊瑚培育缸，旨在提升大家的环保意识，并普及海洋科学类知识。为了让我们的珊瑚最终能回归香港的海域，我们需要你的帮助。"
     ],
 
     news_title: [
