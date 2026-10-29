@@ -7,23 +7,23 @@
     width: 100%;
     display: block;
     margin: 0 auto;
-    transition: opacity 0.3s ease;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    /* transition: opacity 0.3s ease; */
+    /* box-shadow: 0 10px 30px rgba(0,0,0,0.15); */
 }
 
 #members_leadership_container {
     margin: 40px auto;
-    width: fit-content;
+    width: 80vw;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    justify-items: center;
-    max-width: 1000px;
+    /* justify-items: center; */
+    /* max-width: 100vw; */
 }
 
 .leadership-member {
     padding: 15px 20px;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
     cursor: default;
     border-radius: 8px;
     width: 100%;
@@ -32,10 +32,10 @@
     align-items: center;
 }
 
-.leadership-member:hover {
+/* .leadership-member:hover {
     background-color: rgba(0,0,0,0.03);
     transform: scale(1.05);
-}
+} */
 
 .leader_name {
     color: var(--colors-text);
@@ -43,12 +43,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin: 5px 0 0 0;
-    transition: color 0.3s ease;
+    /* transition: color 0.3s ease; */
 }
 
-.leadership-member:hover .leader_name {
+/* .leadership-member:hover .leader_name {
     opacity: 0.8;
-}
+} */
 
 .leadership-divider {
     display: none;
@@ -86,27 +86,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    /* transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); */
     border: 1px solid rgba(255,255,255,0.1);
     overflow: hidden;
 }
 
-.department-card:hover {
+/* .department-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.15);
-}
+} */
 
 .department-image {
     width: 100%;
     height: 180px;
     object-fit: cover;
     margin-bottom: 20px;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
 
-.department-card:hover .department-image {
+/* .department-card:hover .department-image {
     transform: scale(1.05);
-}
+} */
 
 .members-grid {
     display: grid;
@@ -124,10 +124,10 @@
     font-weight: bold;
     margin-bottom: 15px;
     position: relative;
-    padding-bottom: 12px;
+    padding: 0px 12px 12px 12px;
 }
 
-.departmentTitles::after {
+/* .departmentTitles::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -138,18 +138,18 @@
     background-color: var(--colors-memberlist-box);
     border-radius: 2px;
     opacity: 0.8;
-}
+} */
 
 .departmentText {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     margin: 0;
-    transition: all 0.2s ease;
+    /* transition: all 0.2s ease; */
     padding: 4px 0;
 }
 
-.department-card:hover .departmentText {
+/* .department-card:hover .departmentText {
     opacity: 0.8;
     transform: scale(1.02);
-}
+} */
