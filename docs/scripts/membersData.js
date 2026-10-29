@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", function() {
         let htmlContent = "";
         for (let departmentID = 0; departmentID < membersData.length; departmentID++) {
             htmlContent += "<div class=\"department-card\">";
-            htmlContent += "<img src=\"" + membersData[departmentID].image + "\" class=\"department-image\">";
+            // htmlContent += "<img src=\"" + membersData[departmentID].image + "\" class=\"department-image\">";
             htmlContent += "<h2 class=\"departmentTitles\" id=\"" + membersData[departmentID].id + "\"></h2>";
-            htmlContent += "<div class=\"members-grid\">";
+            htmlContent += "<div class=\"members-grid default_text\">";
             for (let memberID = 0; memberID < (membersData[departmentID].departmentMembers).length; memberID++) {
                 htmlContent += "<p class=\"departmentText\">" + String(membersData[departmentID].departmentMembers[memberID]) + "</p>";
             }

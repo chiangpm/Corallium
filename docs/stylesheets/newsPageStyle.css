@@ -15,21 +15,21 @@
 
 .news_entryBox {
     position: relative;
-    margin: 10px auto;
+    margin: 10px 0 35px 0;
+    width: 85vw;
+    padding: 5px 0px 10px 0px;
     background-color: var(--colors-news-main);
-    width: 90%;
+    /* width: 90%; */
     border: 20px;
 }
 
 .news_entryDate {
-    position: relative;
-    top: 0px;
-    width: 100%;
-    background-color: var(--colors-news-heading);
+    position: absolute;
+    /* background-color: var(--colors-news-heading); */
 }
 
 .news_dateText {
-    text-indent: 10px;
+    margin: 15px;
 }
 
 .news_titleText {
@@ -37,5 +37,5 @@
 }
 
 .news_mainText {
-    padding: 15px;
+    margin: 15px 10px 0px 10px;
 }
