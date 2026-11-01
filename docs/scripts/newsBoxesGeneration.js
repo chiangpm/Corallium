@@ -4,7 +4,7 @@ function generateNewsArticles() {
     //newsText is defined in newsPage/newsData.js
     const newsFrame = document.getElementById("news_contentFrame"); 
     let newsFrameHtml = "";
-    for (let entryId = 0; entryId < newsText.length; entryId++) {
+    for (let entryId = newsText.length - 1; entryId >= 0; entryId--) {
         const entry = newsText[entryId];
         
         newsFrameHtml += "<div class=\"news_entryBox\">";
