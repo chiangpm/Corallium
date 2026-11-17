@@ -1,59 +1,69 @@
 const membersData = [
     {
-        id: "members_dep1",
-        image: "media/missionPage/Coral_maintenance.jpeg",
+        id: "members_dep1", //tank maintenance
+        image: "media/membersPage/TM.jpeg",
         departmentMembers: [
             "CHUI Wo Ronald",
             "LI Shing Hing Cathy",
             "KWOK Wing Chi Gigi",
             "OUYANG Yuesheng Kevin",
-            "WANG Zuncheng Marco",
             "HUI Chi Long",
-            "FONG Wai Yan Jade"
+            "BHATT Trisha",
+            "GIN Wing Sum Nicole",
+            "LAW Hei Tung Hazel",
+            "CHEN Pin Chen Richard",
+            "HUI Chi Long",
+            "POON Hin Lok Donald",
+            "YIP Kai Yin Angus",
+            "TUEN Yau Hei Mia",
+            "PENG Hao Sayori",
+            "WU Wing Kiu Hanna",
+            "CHAN Hao Ian"
         ],
     },
     {
-        id: "members_dep2",
-        image: "media/recruitmentPage/Tank_training.jpeg",
+        id: "members_dep2", //public relations
+        image: "media/membersPage/PR.jpeg",
         departmentMembers: [
             "CHAK Tin Long Louis",
-            "HUI Yik Ling Simona",
             "CHAN Man Yung Jaslyn",
-            "CHEN Chiu Tung Coco",
             "TANG Chuck Fung Tristan",
-            "LEUNG Chin Ying Ariana",
-            "HUI Chi Long"
+            "BHATT Riya",
+            "CHENG Kwing Man Princeton",
+            "DOU Leo",
+            "HO Esmee",
+            "HUI Chi Long",
+            "POON Hin Lok Donald",
+            "YIP Kai Yin Angus",
+            "LU Ming Ze Halcyon",
+            "LEUNG Chin Ying Arianna"
         ],
     },
     {
-        id: "members_dep3",
-        image: "media/missionPage/Seagrass_temp.jpeg",
-        departmentMembers: [
-            "FONG Wai Yan Jade",
-            "FU Ho Ka Bobby",
-            "OUYANG Yuesheng Kevin"
-        ]
-    },
-    {
-        id: "members_dep4",
-        image: "media/homePage/awesome_coral.jpeg",
+        id: "members_dep4", //art and design
+        image: "media/membersPage/AD.jpeg",
         departmentMembers: [
             "NGO Chin Wun Eunice",
-            "CHAN Nok Yee Agnes",
-            "NG Hin Yan Rebecca",
-            "LI Sicheng Edwina",
-            "LEUNG Chin Ying Ariana",
-            "ZHOU Mo",
-            "CHEN Chiu Tung Coco",
-            "FONG Wai Yan Jade"
+            "TUEN Yau Hei Mia",
+            "PENG Hao Sayori",
+            "WU Wing Kiu Hanna",
+            "LEUNG Chin Ying Arianna",
+            "NG Hin Yan Rebecca"
         ]
     },
     {
-        id: "members_dep5",
-        image: "media/homePage/coralliumLogo.jpg",
+        id: "members_dep3", //account and finance
+        image: "media/membersPage/AF.jpeg",
         departmentMembers: [
-            "DENG Weilin William",
-            "OUYANG Yuesheng Kevin"
+            "CHAN Hao Ian",
+            "LU Ming Ze Halcyon"
+        ]
+    },
+    {
+        id: "members_dep5", //web
+        image: "media/membersPage/WD.jpeg",
+        departmentMembers: [
+            "DENG Weilin William"
         ]
     }
 ];
@@ -64,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let htmlContent = "";
         for (let departmentID = 0; departmentID < membersData.length; departmentID++) {
             htmlContent += "<div class=\"department-card\">";
-            // htmlContent += "<img src=\"" + membersData[departmentID].image + "\" class=\"department-image\">";
+            htmlContent += "<img src=\"" + membersData[departmentID].image + "\" class=\"department-image\">";
             htmlContent += "<h2 class=\"departmentTitles\" id=\"" + membersData[departmentID].id + "\"></h2>";
             htmlContent += "<div class=\"members-grid default_text\">";
             for (let memberID = 0; memberID < (membersData[departmentID].departmentMembers).length; memberID++) {

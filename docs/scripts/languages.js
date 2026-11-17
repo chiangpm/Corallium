@@ -52,42 +52,6 @@ textContents = {
         "我們的策略",
         "我们的策略"
     ],
-
-    // mission_subheading1: [
-    //     "Fish Tank",
-    //     "??",
-    //     "??"
-    // ],
-
-    // mission_mainContent2Text1: [
-    //     "In CCDD, our duties for running the fish tank include monitoring and controlling water conditions, like pH, temperature, nitrate, and salinity levels. We also feed our fish twice every day, do periodic water changes, and do cyanobacteria removal. In order to maintain the delicate saltwater ecosystem so that the coral can thrive, a dedicated group of members keep the fish tank's water quality in check to match natural seawater.",
-    //     "?",
-    //     "?"
-    // ],
-
-    // mission_subheading2: [
-    //     "Coral Fragging",
-    //     "??",
-    //     "??"
-    // ],
-
-    // mission_mainContent2Text2: [
-    //     "To help coral grow, we frag large colonies by cutting coral at their skeletal branches, and replanting the branches, so that each branch can healthily grow as a new smaller colony. Fragging prevents overgrowth, allowing each colony to have more space and resources to grow larger. Fragging also accelerates repopulation by stimulating the coral's natural regeneration response.",
-    //     "?",
-    //     "?"
-    // ],
-
-    // mission_subheading3: [
-    //     "Outside School Activities",
-    //     "??",
-    //     "??"
-    // ],
-
-    // mission_mainContent2Text3: [
-    //     "We collaborated with HKU students to help research seagrass growth in Hong Kong by planting and monitoring seagrass growth near Tai Tam Tuk resevoir. This research aims to increase the understanding of optimal growth conditions for seagrass, so that better systems can be set up to help preserve Hong Kong's unique ecosystem.",
-    //     "",
-    //     ""
-    // ],
     
     home_mainContent1Heading: [
         "What is our goal?",
@@ -274,6 +238,12 @@ textContents = {
         "Corallium News",
         "Corallium 資訊",
         "Corallium 资讯"
+    ],
+
+    members_translationThanks: [
+        "Special thanks to YANG Kai Wai for translations to Chinese",
+        "特別感謝 YANG Kai Wai 提供中文翻譯。",
+        "特别感谢 YANG Kai Wai 提供中文翻译。"
     ]
 }
 

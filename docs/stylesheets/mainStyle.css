@@ -136,29 +136,6 @@ input[type="reset"] {
     background-color: var(--colors-text);
 }
 
-/* #nav_home {
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-    height: 80%;
-    aspect-ratio: 2.5;
-    background-color: #ffffff;
-    border-width: 0;
-    font-size: min(6vh, 5vw);
-    background-image: url(coralliumLogo.jpg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
-
-/* #logoimg {
-    border: 2px solid #000000;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
 #contents_frame {
     position: absolute;
     /* background-color: #ff00ff; */
@@ -186,17 +163,6 @@ input[type="reset"] {
 .nothome {
     display: none;
 }
-
-
-
-/* #page_mission {
-    height: 10000px;
-}
-
-#page_home {
-    background-color: #ff00ff;
-    height: 10000px;
-} */
 
 .default_text {
     color: var(--colors-text);
@@ -230,4 +196,12 @@ input[type="reset"] {
     margin: 20px auto;
     width: 85vw;
     overflow: auto;
+}
+
+#bottomCoralRepeatingImage {
+    width: 100vw;
+    height: 100px;
+    background-image: url("../media/coralBottom.png");
+    background-repeat: repeat; /* Options: repeat, repeat-x, repeat-y, space, round */
+    background-size: auto 100%;
 }
